@@ -100,6 +100,15 @@ void Clock_WriteTimeDigitValuesAndRenderScreen(const TimeInDigits * const digits
  */
 void Clock_PrerenderPixelAndBackgroundValues(void);
 
+/* Function:
+ *      Clock_DoubleFlashWithClearScreen
+ * 
+ * Description:
+ *      Double flashes the screen white and black to clearly show entry into color change mode. 
+ * 
+ */
+void Clock_DoubleFlashWithClearScreen(void );
+
 
 
 /* Function:
@@ -110,9 +119,16 @@ void Clock_PrerenderPixelAndBackgroundValues(void);
  *
  *
  */
-void Clock_ForceRender(const TimeInDigits * const t);
+void Clock_ForceTimeRender(const TimeInDigits * const t);
 
 
+/* Function:
+ *      Clock_SetScreenBlankAndRender
+ * 
+ * Description:
+ *      Clears screen and renders to reset all LEDs to blank. 
+ */
+void Clock_SetScreenBlankAndRender(void);
 
 
 /************************************ Pattern mode functions ***********************/
@@ -153,6 +169,37 @@ void Clock_Popcorn_Pattern(void);
  * Generates 8 random pixel values at 8 random locations. Holds for 8 patterns  
  */
 void Clock_Popcorn_Pattern_Hold(void);
+
+
+/* Clock_GradientFlashingColors
+ *
+ * Iterates through selected colors and displays gradient patterns 
+ */
+void Clock_GradientFlashingColors( void);
+
+/* Clock_SnakeTravelPattern
+ *
+ * Creates a snake traversing through the screen 
+ */
+void Clock_SnakeTravelPattern(void);
+
+
+/* Clock_SinWaveMovementPattern
+ *
+ * Creates sin wave pattern with static colors 
+ */
+void Clock_SinWaveMovementPattern( void );
+
+
+
+
+
+
+
+
+
+
+
 
 #endif
 

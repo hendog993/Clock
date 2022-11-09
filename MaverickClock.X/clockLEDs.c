@@ -65,7 +65,6 @@ static const size_t digit3StartPixel = 36;
 static const size_t digit4StartPixel = 51;
 
 
-
 /* These local arrays allow the user to change RGB values of digits and background at runtime*/
 static uint8_t currentDIGITrgbArray[NUM_BYTES_IN_PIXEL]; // Populated at startup
 static uint8_t currentBACKGROUNDrgbArray[NUM_BYTES_IN_PIXEL]; // Populated at startup
@@ -83,7 +82,6 @@ static uint8_t currentBACKGROUNDrgbArray[NUM_BYTES_IN_PIXEL]; // Populated at st
  */
 static __pack ws2812bPixel upEncodedDigitsPixelValues[TOTAL_NUM_DIGITS][NUM_PIXELS_PER_DIGIT]; // Digits 1 and 4
 static __pack ws2812bPixel downEncodedDigitsPixelValues[TOTAL_NUM_DIGITS][NUM_PIXELS_PER_DIGIT]; // Digits 2 and 3
-
 
 
 /* Digit encodings:
@@ -344,7 +342,7 @@ static void Clock_FixDigit4LastThreePixels( const uint8_t digit4Value )
 
 /****************************************** Color Change Mode Functions ************************************/
 
-void Clock_ForceRender( const TimeInDigits * const t )
+void Clock_ForceTimeRender( const TimeInDigits * const t )
 {
     WS2812b_CopyPixelBufferArrayFromSource( &ledArray,
                                             upEncodedDigitsPixelValues[t->digit1],
@@ -367,15 +365,52 @@ void Clock_ForceRender( const TimeInDigits * const t )
     return;
 }
 
-void Clock_DoubleFlashWithClearScreen( )
+void Clock_DoubleFlashWithClearScreen( void )
 {
-
+    WS2812b_SetStripConstantColor( &ledArray,
+                                   0x80u,
+                                   0x80u,
+                                   0x80u );
+    WS2812B_Render( &ledArray );
+    __delay_ms( 50 );
+    WS2812b_SetStripConstantColor( &ledArray,
+                                   0x0u,
+                                   0x0u,
+                                   0x0u );
+    WS2812B_Render( &ledArray );
+    __delay_ms( 50 );
+    WS2812b_SetStripConstantColor( &ledArray,
+                                   0x80u,
+                                   0x80u,
+                                   0x80u );
+    WS2812B_Render( &ledArray );
+    __delay_ms( 50 );
+    WS2812b_SetStripConstantColor( &ledArray,
+                                   0x0u,
+                                   0x0u,
+                                   0x0u );
+    WS2812B_Render( &ledArray );
+    __delay_ms( 50 );
 }
 
+void Clock_SetScreenBlankAndRender( void )
+{
+    WS2812b_SetStripConstantColor( &ledArray,
+                                   0x0u,
+                                   0x0u,
+                                   0x0u );
+    WS2812B_Render( &ledArray );
+}
 
+/*********************************************************************************************************/
 /***************************************** Pattern Mode Functions ****************************************/
-// All functions call 1 single render then return from the function. "states" are statically saved
-// All functions must be non blocking
+/*********************************************************************************************************/
+
+/* Note! All pattern mode functions must be designed as non-blocking. Each function should only render once
+ * per function call. Use static variables to save the most recent state. This way, a pattern can be exited
+ * at any point between renders and isn't stuck in the pattern if the user tries to change pattern. 
+ */
+
 
 void Clock_IterateSinglePixelByIndex( void )
 {
@@ -413,7 +448,10 @@ static const uint8_t row3[14] = {0, 3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58
 static const uint8_t row4[13] = {2, 9, 12, 19, 22, 29, 32, 39, 42, 49, 52, 59, 61};
 static const uint8_t row5[12] = {1, 10, 11, 20, 21, 30, 31, 40, 41, 50, 51, 60};
 
-static const uint8_t rainbowRGBValues[6][3] = {
+#define NUM_COLORS_IN_RAINBOW 6u
+#define NUM_COLORS_PER_RGB_PIXEL 3u
+
+static const uint8_t rainbowRGBValues[NUM_COLORS_IN_RAINBOW][NUM_COLORS_PER_RGB_PIXEL] = {
     {0xFFu, 0x00u, 0x00u}, // Red
     {255u, 69u, 0u}, // Orange
     {0xFFu, 0xFFu, 0x00u}, // Yellow
@@ -601,94 +639,110 @@ void Clock_Popcorn_Pattern( void )
                                    0u,
                                    0u );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
+    WS2812b_SetSinglePixelColor( &ledArray,
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
+    WS2812b_SetSinglePixelColor( &ledArray,
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812B_Render( &ledArray );
     __delay_ms( 150 );
 }
 
 void Clock_Popcorn_Pattern_Hold( void )
 {
+    // TODO make half hold during duration so there is no instant screen clear 
 #define NUM_RENDERS_BEFORE_RESET 8
     static size_t numRenders = 0;
 
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812b_SetSinglePixelColor( &ledArray,
-                                 ( (uint8_t) rand( ) % TOTAL_NUM_DIGITS ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ),
-                                 ( rand( ) % 255 ) );
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
+    WS2812b_SetSinglePixelColor( &ledArray,
+                                 rand( ) % NUM_CLOCK_PIXELS - 1,
+                                 rand( ) % 255,
+                                 rand( ) % 255,
+                                 rand( ) % 255 );
     WS2812B_Render( &ledArray );
     __delay_ms( 150 );
     numRenders++;
@@ -701,6 +755,83 @@ void Clock_Popcorn_Pattern_Hold( void )
         numRenders = 0;
     }
     return;
+}
+
+void Clock_GradientFlashingColors( void )
+{
+    /* colorIndex controls the mode. 
+     * baseColor controls the color gradient. 
+     *
+     * When base color reaches its max, isDirectionForward switches to false and 
+     *      subsequent entries causes baseColor to decrement. When baseColor reaches
+     *      0, isDirectionForward switches to true and baseColor will increment. 
+     * 
+     */
+
+    static size_t colorIndex = 0;
+    static uint8_t baseColor = 0; // Single color used for all iterations 
+    static bool isDirectionForward = true;
+
+    switch( colorIndex )
+    {
+        case ( 0 ):
+        {
+            /* Magenta*/
+            WS2812b_SetStripConstantColor( &ledArray,
+                                           baseColor,
+                                           0u,
+                                           baseColor );
+            break;
+        }
+        case ( 1 ):
+        {
+            /* Lime Green */
+            WS2812b_SetStripConstantColor( &ledArray,
+                                           baseColor / 4u,
+                                           baseColor,
+                                           baseColor / 4u );
+            break;
+        }
+        case ( 2 ):
+        {
+            /* Orange */
+            WS2812b_SetStripConstantColor( &ledArray,
+                                           baseColor,
+                                           baseColor / 6u,
+                                           0u );
+            break;
+        }
+        default:
+        {
+            break;
+        }
+    }
+    WS2812B_Render( &ledArray );
+    __delay_ms( 3 );
+
+    if( ( UINT8_MAX == baseColor ) &&
+        ( isDirectionForward ) )
+    {
+        isDirectionForward = false;
+    }
+    else if( ( 0u == baseColor ) &&
+             ( false == isDirectionForward ) )
+    {
+        isDirectionForward = true;
+
+        colorIndex = ( 2 == colorIndex ) ? 0 : colorIndex + 1;
+    }
+    baseColor = ( isDirectionForward ) ? baseColor + 1u : baseColor - 1u;
+}
+
+void Clock_SnakeTravelPattern( void )
+{
+
+}
+
+void Clock_SinWaveMovementPattern( void )
+{
+
 }
 
 /* End ledArray.c source file */

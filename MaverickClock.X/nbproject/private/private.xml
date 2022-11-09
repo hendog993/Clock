@@ -2,6 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Development/Clock/MaverickClock.X/clockLEDs.h</file>
+            <file>file:/C:/Development/Clock/MaverickClock.X/changeColorMode.c</file>
+            <file>file:/C:/Development/Clock/MaverickClock.X/patternMode.c</file>
+            <file>file:/C:/Development/Clock/MaverickClock.X/changeColorMode.h</file>
+            <file>file:/C:/Development/Clock/MaverickClock.X/clockLEDs.c</file>
+            <file>file:/C:/Development/Clock/MaverickClock.X/app.c</file>
+        </group>
     </open-files>
 </project-private>

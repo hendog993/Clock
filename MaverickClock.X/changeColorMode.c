@@ -61,6 +61,8 @@ static const uint8_t colorRGBArrays[NUM_COLOR_ARRAY_ROWS][NUM_BYTES_IN_RGB_PIXEL
 
 bool STATE_ChangeColorMode( void )
 {
+    Clock_DoubleFlashWithClearScreen();
+ 
     /* Clear LEDs and render clear */
     Clock_SetBackgroundRGBArray( 0u, 0u, 0u );
     const TimeInDigits dColorTime = {
@@ -70,7 +72,7 @@ bool STATE_ChangeColorMode( void )
         .digit4 = 0,
     };
     Clock_PrerenderPixelAndBackgroundValues( );
-    Clock_ForceRender( &dColorTime );
+    Clock_ForceTimeRender( &dColorTime );
 
     RotaryEncoder_HasButtonPressOccurred( ); // Clear a possible button pressed flag
 
@@ -90,7 +92,7 @@ bool STATE_ChangeColorMode( void )
                                     colorRGBArrays[arrayRowIdx][1],
                                     colorRGBArrays[arrayRowIdx][2] );
             Clock_PrerenderPixelAndBackgroundValues( );
-            Clock_ForceRender( &dColorTime );
+            Clock_ForceTimeRender( &dColorTime );
         }
     }
     while( false == RotaryEncoder_HasButtonPressOccurred( ) );
@@ -117,7 +119,7 @@ bool STATE_ChangeColorMode( void )
                                          colorRGBArrays[arrayRowIdx][1],
                                          colorRGBArrays[arrayRowIdx][2] );
             Clock_PrerenderPixelAndBackgroundValues( );
-            Clock_ForceRender( &dColorTime );
+            Clock_ForceTimeRender( &dColorTime );
         }
     }
     while( false == RotaryEncoder_HasButtonPressOccurred( ) );
