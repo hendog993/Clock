@@ -1,0 +1,2225 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\startup.o
+idloc IDLOC 5 8000 8000 4 2 1
+init CODE 0 26 26 3 2 1
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 29 29 2 2 1
+config CONFIG 4 8007 8007 4 2 1
+$dist/default/production\MaverickClock.X.production.o
+cinit CODE 0 2B 2B 50 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 241F 241F 15 2 1
+text2 CODE 0 22AD 22AD 4 2 1
+text3 CODE 0 249A 249A 1C 2 1
+text4 CODE 0 23E4 23E4 13 2 1
+text5 CODE 0 244A 244A 1A 2 1
+text6 CODE 0 22BE 22BE 8 2 1
+text7 CODE 0 269C 269C 3F 2 1
+text8 CODE 0 22F3 22F3 9 2 1
+text9 CODE 0 1C9D 1C9D 63 2 1
+text10 CODE 0 1366 1366 1A1 2 1
+text11 CODE 0 1C3E 1C3E 5F 2 1
+text12 CODE 0 1507 1507 2F9 2 1
+text13 CODE 0 7B 7B 3E2 2 1
+text14 CODE 0 C3E C3E 3C2 2 1
+text15 CODE 0 2721 2721 48 2 1
+text16 CODE 0 45D 45D 305 2 1
+text17 CODE 0 2769 2769 4A 2 1
+text18 CODE 0 1001 1001 30 2 1
+text19 CODE 0 884 884 3BA 2 1
+text20 CODE 0 1F14 1F14 EC 2 1
+text21 CODE 0 25D5 25D5 2D 2 1
+text22 CODE 0 2667 2667 35 2 1
+text23 CODE 0 1B33 1B33 53 2 1
+text24 CODE 0 26DB 26DB 46 2 1
+text25 CODE 0 1AE1 1AE1 52 2 1
+text26 CODE 0 1242 1242 124 2 1
+text27 CODE 0 23C0 23C0 11 2 1
+text28 CODE 0 23D1 23D1 13 2 1
+text29 CODE 0 2535 2535 22 2 1
+text30 CODE 0 2513 2513 22 2 1
+text31 CODE 0 1121 1121 121 2 1
+text32 CODE 0 1BE1 1BE1 5D 2 1
+text33 CODE 0 1031 1031 F0 2 1
+text34 CODE 0 1D87 1D87 BF 2 1
+text35 CODE 0 1B86 1B86 5B 2 1
+text36 CODE 0 23B0 23B0 10 2 1
+text37 CODE 0 1E46 1E46 CE 2 1
+text38 CODE 0 22B6 22B6 8 2 1
+text39 CODE 0 22EA 22EA 9 2 1
+text40 CODE 0 800 800 3 2 1
+text41 CODE 0 22AA 22AA 3 2 1
+text42 CODE 0 22A7 22A7 3 2 1
+text43 CODE 0 22E1 22E1 9 2 1
+text44 CODE 0 2434 2434 16 2 1
+text45 CODE 0 24F3 24F3 20 2 1
+text46 CODE 0 22D8 22D8 9 2 1
+text47 CODE 0 22CF 22CF 9 2 1
+text48 CODE 0 22C6 22C6 9 2 1
+text49 CODE 0 1A43 1A43 4E 2 1
+text50 CODE 0 22A4 22A4 3 2 1
+text51 CODE 0 24D3 24D3 20 2 1
+text52 CODE 0 23A1 23A1 F 2 1
+text53 CODE 0 2602 2602 32 2 1
+text54 CODE 0 25A9 25A9 2C 2 1
+text55 CODE 0 803 803 81 2 1
+text56 CODE 0 247E 247E 1C 2 1
+text57 CODE 0 1A91 1A91 50 2 1
+text58 CODE 0 2580 2580 29 2 1
+text59 CODE 0 2634 2634 33 2 1
+text60 CODE 0 2557 2557 29 2 1
+text61 CODE 0 240B 240B 14 2 1
+text62 CODE 0 23F7 23F7 14 2 1
+text63 CODE 0 27B3 27B3 4D 2 1
+text65 CODE 0 2376 2376 D 2 1
+text66 CODE 0 2392 2392 F 2 1
+text67 CODE 0 2307 2307 B 2 1
+text68 CODE 0 2 2 1 2 1
+text69 CODE 0 1A02 1A02 41 2 1
+text70 CODE 0 2369 2369 D 2 1
+text71 CODE 0 2383 2383 F 2 1
+text72 CODE 0 22FC 22FC B 2 1
+text73 CODE 0 1000 1000 1 2 1
+text74 CODE 0 2312 2312 C 2 1
+text75 CODE 0 7EE 7EE 12 2 1
+text76 CODE 0 235C 235C D 2 1
+text77 CODE 0 1A01 1A01 1 2 1
+text78 CODE 0 762 762 8C 2 1
+text79 CODE 0 24B6 24B6 1D 2 1
+text80 CODE 0 234F 234F D 2 1
+text81 CODE 0 1A00 1A00 1 2 1
+text82 CODE 0 1D00 1D00 87 2 1
+text83 CODE 0 22A3 22A3 1 2 1
+text84 CODE 0 2342 2342 D 2 1
+nvBANK1 BANK1 1 D3 D3 4 1 1
+nvBANK2 BANK2 1 14B 14B C 1 1
+maintext CODE 0 231E 231E C 2 1
+cstackCOMMON COMMON 1 70 70 B 1 1
+cstackBANK0 BANK0 1 21 21 3C 1 1
+cstackBANK1 BANK1 1 A0 A0 1B 1 1
+cstackBANK3 BANK3 1 1A0 1A0 23 1 1
+inittext CODE 0 2336 2336 C 2 1
+stringtext1 STRCODE 0 1800 1800 200 2 1
+stringtext2 STRCODE 0 2800 2800 30 2 1
+stringtext3 STRCODE 0 2858 2858 12 2 1
+stringtext4 STRCODE 0 286A 286A E 2 1
+stringtext5 STRCODE 0 2878 2878 D 2 1
+stringtext6 STRCODE 0 2885 2885 D 2 1
+stringtext7 STRCODE 0 2892 2892 C 2 1
+stringtext8 STRCODE 0 289E 289E C 2 1
+stringtext9 STRCODE 0 28AE 28AE 2 2 1
+intentry CODE 0 4 4 22 2 1
+bssBANK0 BANK0 1 5D 5D 9 1 1
+bssBANK1 BANK1 1 BB BB 13 1 1
+bssBANK2 BANK2 1 120 120 2B 1 1
+idataBANK0 CODE 0 3 3 1 2 1
+idataBANK1 CODE 0 22B1 22B1 5 2 1
+idataBANK3 CODE 0 2464 2464 1A 2 1
+dataBANK0 BANK0 1 66 66 1 1 1
+dataBANK1 BANK1 1 CE CE 5 1 1
+dataBANK3 BANK3 1 1C3 1C3 1A 1 1
+clrtext CODE 0 232A 232A C 2 1
+bssCOMMON COMMON 1 7B 7B 3 1 1
+stringtext10 STRCODE 0 28B0 28B0 2 2 1
+stringtext11 STRCODE 0 28B2 28B2 2 2 1
+stringtext12 STRCODE 0 28B4 28B4 2 2 1
+stringtext13 STRCODE 0 2830 2830 14 2 1
+stringtext14 STRCODE 0 2844 2844 14 2 1
+stringtext15 STRCODE 0 28AA 28AA 4 2 1
+config CONFIG 4 8007 8007 4 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 67-6F 1
+RAM D7-EF 1
+RAM 157-16F 1
+RAM 1DD-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-647 1
+BANK0 67-6F 1
+BANK1 D7-EF 1
+BANK2 157-16F 1
+BANK3 1DD-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 2000-22A2 2
+CONST 28B6-3FFF 2
+ENTRY 2000-22A2 2
+ENTRY 28B6-3FFF 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-69F 1
+SFR14 700-71F 1
+SFR15 780-79F 1
+SFR16 800-81F 1
+SFR17 880-89F 1
+SFR18 900-91F 1
+SFR19 980-99F 1
+SFR20 A00-A1F 1
+SFR21 A80-A9F 1
+SFR22 B00-B1F 1
+SFR23 B80-B9F 1
+SFR24 C00-C1F 1
+SFR25 C80-C9F 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+CODE 2000-22A2 2
+CODE 28B6-3FFF 2
+SFR0 0-20 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-647 1
+BIGRAM 2001-27EF 1
+EEDATA F000-F0FF 2
+STRCODE 2000-22A2 2
+STRCODE 28B6-3FFF 2
+STRING 2000-22A2 2
+STRING 28B6-3FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\startup.o
+29 end_init CODE >135:C:\Development\MaverickClock.X\dist/default/production\startup.s
+26 init CODE >109:C:\Development\MaverickClock.X\dist/default/production\startup.s
+27 init CODE >110:C:\Development\MaverickClock.X\dist/default/production\startup.s
+28 init CODE >111:C:\Development\MaverickClock.X\dist/default/production\startup.s
+0 reset_vec CODE >96:C:\Development\MaverickClock.X\dist/default/production\startup.s
+$dist/default/production\MaverickClock.X.production.o
+2B cinit CODE >11736:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2B cinit CODE >11739:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2B cinit CODE >11884:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2E cinit CODE >11885:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2F cinit CODE >11889:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+30 cinit CODE >11890:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+31 cinit CODE >11891:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+32 cinit CODE >11892:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+33 cinit CODE >11893:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+34 cinit CODE >11894:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+35 cinit CODE >11895:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+36 cinit CODE >11896:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+37 cinit CODE >11897:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+38 cinit CODE >11898:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+39 cinit CODE >11899:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+3A cinit CODE >11900:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+3D cinit CODE >11904:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+3E cinit CODE >11905:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+3F cinit CODE >11906:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+40 cinit CODE >11907:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+41 cinit CODE >11908:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+42 cinit CODE >11909:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+43 cinit CODE >11910:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+44 cinit CODE >11911:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+45 cinit CODE >11912:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+46 cinit CODE >11913:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+47 cinit CODE >11914:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+48 cinit CODE >11915:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+4B cinit CODE >11938:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+4C cinit CODE >11939:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+4D cinit CODE >11940:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+4E cinit CODE >11941:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+4F cinit CODE >11942:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+50 cinit CODE >11943:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+51 cinit CODE >11944:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+52 cinit CODE >11945:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+53 cinit CODE >11946:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+56 cinit CODE >11950:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+57 cinit CODE >11951:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+58 cinit CODE >11952:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+59 cinit CODE >11956:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+5A cinit CODE >11957:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+5B cinit CODE >11958:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+5C cinit CODE >11959:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+5D cinit CODE >11960:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+5E cinit CODE >11961:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+5F cinit CODE >11962:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+60 cinit CODE >11963:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+61 cinit CODE >11964:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+62 cinit CODE >11968:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+63 cinit CODE >11969:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+64 cinit CODE >11970:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+65 cinit CODE >11971:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+66 cinit CODE >11972:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+67 cinit CODE >11973:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+68 cinit CODE >11974:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+69 cinit CODE >11975:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+6A cinit CODE >11976:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+6D cinit CODE >11980:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+6E cinit CODE >11981:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+6F cinit CODE >11982:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+70 cinit CODE >11983:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+71 cinit CODE >11984:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+72 cinit CODE >11985:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+73 cinit CODE >11986:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+74 cinit CODE >11987:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+75 cinit CODE >11988:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+77 cinit CODE >11994:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+77 cinit CODE >11996:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+78 cinit CODE >11997:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+79 cinit CODE >11998:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+4 intentry CODE >52:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+C intentry CODE >57:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+F intentry CODE >58:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+10 intentry CODE >59:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+12 intentry CODE >61:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+18 intentry CODE >63:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+1B intentry CODE >64:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+1C intentry CODE >65:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+22 intentry CODE >67:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+24 intentry CODE >78:C:\Development\MaverickClock.X\mcc_generated_files/interrupt_manager.c
+2342 text84 CODE >160:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2342 text84 CODE >165:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2347 text84 CODE >167:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+234C text84 CODE >169:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+234E text84 CODE >170:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22A3 text83 CODE >212:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22A3 text83 CODE >215:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+1D00 text82 CODE >120:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D00 text82 CODE >122:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D03 text82 CODE >125:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D0E text82 CODE >125:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D1A text82 CODE >128:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D2C text82 CODE >129:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D39 text82 CODE >132:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D3F text82 CODE >135:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D40 text82 CODE >138:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D50 text82 CODE >139:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D56 text82 CODE >140:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D57 text82 CODE >142:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D67 text82 CODE >143:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D70 text82 CODE >144:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D71 text82 CODE >147:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D7B text82 CODE >147:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D80 text82 CODE >147:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D83 text82 CODE >147:C:\Development\MaverickClock.X\rotaryEncoder.c
+1D86 text82 CODE >150:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A00 text81 CODE >182:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+1A00 text81 CODE >185:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+234F text80 CODE >190:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+234F text80 CODE >195:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2354 text80 CODE >197:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2359 text80 CODE >199:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+235B text80 CODE >200:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+24B6 text79 CODE >98:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24B6 text79 CODE >105:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24BB text79 CODE >106:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24BF text79 CODE >108:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24CE text79 CODE >110:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24D2 text79 CODE >111:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+762 text78 CODE >161:C:\Development\MaverickClock.X\rotaryEncoder.c
+762 text78 CODE >163:C:\Development\MaverickClock.X\rotaryEncoder.c
+765 text78 CODE >166:C:\Development\MaverickClock.X\rotaryEncoder.c
+76D text78 CODE >170:C:\Development\MaverickClock.X\rotaryEncoder.c
+76E text78 CODE >173:C:\Development\MaverickClock.X\rotaryEncoder.c
+776 text78 CODE >174:C:\Development\MaverickClock.X\rotaryEncoder.c
+777 text78 CODE >176:C:\Development\MaverickClock.X\rotaryEncoder.c
+785 text78 CODE >179:C:\Development\MaverickClock.X\rotaryEncoder.c
+790 text78 CODE >179:C:\Development\MaverickClock.X\rotaryEncoder.c
+794 text78 CODE >179:C:\Development\MaverickClock.X\rotaryEncoder.c
+796 text78 CODE >181:C:\Development\MaverickClock.X\rotaryEncoder.c
+798 text78 CODE >185:C:\Development\MaverickClock.X\rotaryEncoder.c
+7AE text78 CODE >185:C:\Development\MaverickClock.X\rotaryEncoder.c
+7B2 text78 CODE >185:C:\Development\MaverickClock.X\rotaryEncoder.c
+7B4 text78 CODE >187:C:\Development\MaverickClock.X\rotaryEncoder.c
+7BC text78 CODE >187:C:\Development\MaverickClock.X\rotaryEncoder.c
+7BE text78 CODE >188:C:\Development\MaverickClock.X\rotaryEncoder.c
+7C0 text78 CODE >193:C:\Development\MaverickClock.X\rotaryEncoder.c
+7C8 text78 CODE >197:C:\Development\MaverickClock.X\rotaryEncoder.c
+7D1 text78 CODE >198:C:\Development\MaverickClock.X\rotaryEncoder.c
+7DA text78 CODE >199:C:\Development\MaverickClock.X\rotaryEncoder.c
+7DB text78 CODE >203:C:\Development\MaverickClock.X\rotaryEncoder.c
+7E2 text78 CODE >203:C:\Development\MaverickClock.X\rotaryEncoder.c
+7E7 text78 CODE >203:C:\Development\MaverickClock.X\rotaryEncoder.c
+7EA text78 CODE >203:C:\Development\MaverickClock.X\rotaryEncoder.c
+7ED text78 CODE >206:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A01 text77 CODE >242:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+1A01 text77 CODE >245:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+235C text76 CODE >220:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+235C text76 CODE >225:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2361 text76 CODE >227:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2366 text76 CODE >229:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2368 text76 CODE >230:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7EE text75 CODE >138:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7EE text75 CODE >141:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7F1 text75 CODE >143:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7F4 text75 CODE >146:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7F7 text75 CODE >148:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7FA text75 CODE >151:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7FD text75 CODE >153:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+7FF text75 CODE >155:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+2312 text74 CODE >157:C:\Development\MaverickClock.X\app.c
+2312 text74 CODE >159:C:\Development\MaverickClock.X\app.c
+2315 text74 CODE >159:C:\Development\MaverickClock.X\app.c
+231D text74 CODE >161:C:\Development\MaverickClock.X\app.c
+1000 text73 CODE >182:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+1000 text73 CODE >185:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22FC text72 CODE >169:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22FC text72 CODE >172:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2301 text72 CODE >174:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2306 text72 CODE >176:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2383 text71 CODE >120:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2383 text71 CODE >122:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2386 text71 CODE >125:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2387 text71 CODE >128:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2389 text71 CODE >129:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+238B text71 CODE >132:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+238C text71 CODE >133:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+238D text71 CODE >137:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+238F text71 CODE >138:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2391 text71 CODE >140:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2369 text70 CODE >157:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2369 text70 CODE >161:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+236B text70 CODE >162:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2373 text70 CODE >166:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2375 text70 CODE >167:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+1A02 text69 CODE >140:C:\Development\MaverickClock.X\timeCalculation.c
+1A02 text69 CODE >142:C:\Development\MaverickClock.X\timeCalculation.c
+1A42 text69 CODE >144:C:\Development\MaverickClock.X\timeCalculation.c
+2 text68 CODE >182:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2 text68 CODE >185:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2307 text67 CODE >169:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2307 text67 CODE >172:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+230C text67 CODE >174:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2311 text67 CODE >176:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2392 text66 CODE >120:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2392 text66 CODE >122:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2395 text66 CODE >125:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2396 text66 CODE >128:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2398 text66 CODE >129:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+239A text66 CODE >132:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+239B text66 CODE >133:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+239C text66 CODE >137:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+239E text66 CODE >138:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+23A0 text66 CODE >140:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2376 text65 CODE >157:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2376 text65 CODE >161:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2378 text65 CODE >162:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2380 text65 CODE >166:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+2382 text65 CODE >167:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+27B3 text63 CODE >66:C:\Development\MaverickClock.X\CRC16bit.c
+27B3 text63 CODE >71:C:\Development\MaverickClock.X\CRC16bit.c
+27B8 text63 CODE >73:C:\Development\MaverickClock.X\CRC16bit.c
+27BE text63 CODE >75:C:\Development\MaverickClock.X\CRC16bit.c
+27EF text63 CODE >76:C:\Development\MaverickClock.X\CRC16bit.c
+27F5 text63 CODE >76:C:\Development\MaverickClock.X\CRC16bit.c
+27F9 text63 CODE >76:C:\Development\MaverickClock.X\CRC16bit.c
+27FB text63 CODE >77:C:\Development\MaverickClock.X\CRC16bit.c
+27FF text63 CODE >78:C:\Development\MaverickClock.X\CRC16bit.c
+23F7 text62 CODE >151:C:\Development\MaverickClock.X\clockLEDs.c
+23F9 text62 CODE >155:C:\Development\MaverickClock.X\clockLEDs.c
+23FE text62 CODE >156:C:\Development\MaverickClock.X\clockLEDs.c
+2404 text62 CODE >157:C:\Development\MaverickClock.X\clockLEDs.c
+240A text62 CODE >158:C:\Development\MaverickClock.X\clockLEDs.c
+240B text61 CODE >160:C:\Development\MaverickClock.X\clockLEDs.c
+240D text61 CODE >164:C:\Development\MaverickClock.X\clockLEDs.c
+2412 text61 CODE >165:C:\Development\MaverickClock.X\clockLEDs.c
+2418 text61 CODE >166:C:\Development\MaverickClock.X\clockLEDs.c
+241E text61 CODE >167:C:\Development\MaverickClock.X\clockLEDs.c
+2557 text60 CODE >38:C:\Development\MaverickClock.X\ws2812b.c
+2557 text60 CODE >43:C:\Development\MaverickClock.X\ws2812b.c
+255C text60 CODE >44:C:\Development\MaverickClock.X\ws2812b.c
+2560 text60 CODE >45:C:\Development\MaverickClock.X\ws2812b.c
+2577 text60 CODE >46:C:\Development\MaverickClock.X\ws2812b.c
+257F text60 CODE >47:C:\Development\MaverickClock.X\ws2812b.c
+2634 text59 CODE >131:C:\Development\MaverickClock.X\clockLEDs.c
+2634 text59 CODE >139:C:\Development\MaverickClock.X\clockLEDs.c
+2641 text59 CODE >143:C:\Development\MaverickClock.X\clockLEDs.c
+264E text59 CODE >147:C:\Development\MaverickClock.X\clockLEDs.c
+2666 text59 CODE >149:C:\Development\MaverickClock.X\clockLEDs.c
+2580 text58 CODE >4:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+2580 text58 CODE >11:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+2585 text58 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+2589 text58 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+258E text58 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+2592 text58 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+259E text58 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+25A8 text58 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\memcpy.c
+1A91 text57 CODE >258:C:\Development\MaverickClock.X\clockLEDs.c
+1A91 text57 CODE >263:C:\Development\MaverickClock.X\clockLEDs.c
+1A96 text57 CODE >264:C:\Development\MaverickClock.X\clockLEDs.c
+1A98 text57 CODE >266:C:\Development\MaverickClock.X\clockLEDs.c
+1A9A text57 CODE >269:C:\Development\MaverickClock.X\clockLEDs.c
+1AAA text57 CODE >271:C:\Development\MaverickClock.X\clockLEDs.c
+1AB2 text57 CODE >275:C:\Development\MaverickClock.X\clockLEDs.c
+1AC1 text57 CODE >277:C:\Development\MaverickClock.X\clockLEDs.c
+1AC6 text57 CODE >278:C:\Development\MaverickClock.X\clockLEDs.c
+1ACD text57 CODE >278:C:\Development\MaverickClock.X\clockLEDs.c
+1ACF text57 CODE >278:C:\Development\MaverickClock.X\clockLEDs.c
+1AD1 text57 CODE >279:C:\Development\MaverickClock.X\clockLEDs.c
+1AD5 text57 CODE >280:C:\Development\MaverickClock.X\clockLEDs.c
+1ADC text57 CODE >280:C:\Development\MaverickClock.X\clockLEDs.c
+1ADE text57 CODE >280:C:\Development\MaverickClock.X\clockLEDs.c
+247E text56 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+247E text56 CODE >43:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+2481 text56 CODE >45:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+2483 text56 CODE >46:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+2487 text56 CODE >47:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+248C text56 CODE >48:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+2491 text56 CODE >49:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+2495 text56 CODE >52:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+2499 text56 CODE >53:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+803 text55 CODE >179:C:\Development\MaverickClock.X\ws2812b.c
+803 text55 CODE >186:C:\Development\MaverickClock.X\ws2812b.c
+810 text55 CODE >192:C:\Development\MaverickClock.X\ws2812b.c
+816 text55 CODE >194:C:\Development\MaverickClock.X\ws2812b.c
+821 text55 CODE >194:C:\Development\MaverickClock.X\ws2812b.c
+825 text55 CODE >194:C:\Development\MaverickClock.X\ws2812b.c
+827 text55 CODE >200:C:\Development\MaverickClock.X\ws2812b.c
+839 text55 CODE >201:C:\Development\MaverickClock.X\ws2812b.c
+853 text55 CODE >202:C:\Development\MaverickClock.X\ws2812b.c
+859 text55 CODE >204:C:\Development\MaverickClock.X\ws2812b.c
+876 text55 CODE >205:C:\Development\MaverickClock.X\ws2812b.c
+87D text55 CODE >205:C:\Development\MaverickClock.X\ws2812b.c
+881 text55 CODE >205:C:\Development\MaverickClock.X\ws2812b.c
+25A9 text54 CODE >209:C:\Development\MaverickClock.X\ws2812b.c
+25A9 text54 CODE >214:C:\Development\MaverickClock.X\ws2812b.c
+25B6 text54 CODE >219:C:\Development\MaverickClock.X\ws2812b.c
+25D4 text54 CODE >226:C:\Development\MaverickClock.X\ws2812b.c
+2602 text53 CODE >219:C:\Development\MaverickClock.X\clockLEDs.c
+2602 text53 CODE >222:C:\Development\MaverickClock.X\clockLEDs.c
+261C text53 CODE >228:C:\Development\MaverickClock.X\clockLEDs.c
+2628 text53 CODE >232:C:\Development\MaverickClock.X\clockLEDs.c
+2633 text53 CODE >236:C:\Development\MaverickClock.X\clockLEDs.c
+23A1 text52 CODE >202:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23A1 text52 CODE >204:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23A5 text52 CODE >205:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23A9 text52 CODE >206:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23AA text52 CODE >207:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23AB text52 CODE >208:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23AC text52 CODE >209:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23AD text52 CODE >211:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+23AF text52 CODE >212:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+24D3 text51 CODE >98:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24D3 text51 CODE >105:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24D9 text51 CODE >106:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24DF text51 CODE >108:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24EE text51 CODE >110:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+24F2 text51 CODE >111:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+22A4 text50 CODE >86:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+22A4 text50 CODE >89:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+22A6 text50 CODE >90:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+1A43 text49 CODE >53:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A43 text49 CODE >55:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A4F text49 CODE >56:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A55 text49 CODE >57:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A62 text49 CODE >58:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A6A text49 CODE >60:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A6F text49 CODE >61:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A77 text49 CODE >62:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A7E text49 CODE >63:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A86 text49 CODE >64:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A8C text49 CODE >66:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A8E text49 CODE >67:C:\Development\MaverickClock.X\rotaryEncoder.c
+1A90 text49 CODE >68:C:\Development\MaverickClock.X\rotaryEncoder.c
+22C6 text48 CODE >175:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22C6 text48 CODE >176:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22CE text48 CODE >177:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22CF text47 CODE >205:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22CF text47 CODE >206:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22D7 text47 CODE >207:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22D8 text46 CODE >235:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22D8 text46 CODE >236:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22E0 text46 CODE >237:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+24F3 text45 CODE >39:C:\Development\MaverickClock.X\rotaryEncoder.c
+24F5 text45 CODE >41:C:\Development\MaverickClock.X\rotaryEncoder.c
+24F8 text45 CODE >46:C:\Development\MaverickClock.X\rotaryEncoder.c
+24FC text45 CODE >47:C:\Development\MaverickClock.X\rotaryEncoder.c
+2503 text45 CODE >48:C:\Development\MaverickClock.X\rotaryEncoder.c
+250B text45 CODE >49:C:\Development\MaverickClock.X\rotaryEncoder.c
+2512 text45 CODE >51:C:\Development\MaverickClock.X\rotaryEncoder.c
+2434 text44 CODE >48:C:\Development\MaverickClock.X\patternMode.c
+2434 text44 CODE >50:C:\Development\MaverickClock.X\patternMode.c
+2439 text44 CODE >51:C:\Development\MaverickClock.X\patternMode.c
+243D text44 CODE >52:C:\Development\MaverickClock.X\patternMode.c
+2441 text44 CODE >53:C:\Development\MaverickClock.X\patternMode.c
+2445 text44 CODE >54:C:\Development\MaverickClock.X\patternMode.c
+2449 text44 CODE >55:C:\Development\MaverickClock.X\patternMode.c
+22E1 text43 CODE >178:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22E1 text43 CODE >179:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22E9 text43 CODE >180:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22A7 text42 CODE >93:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22A7 text42 CODE >96:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22A9 text42 CODE >97:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+22AA text41 CODE >93:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+22AA text41 CODE >96:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+22AC text41 CODE >97:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+800 text40 CODE >54:C:\Development\MaverickClock.X\timeCalculation.c
+800 text40 CODE >56:C:\Development\MaverickClock.X\timeCalculation.c
+802 text40 CODE >58:C:\Development\MaverickClock.X\timeCalculation.c
+22EA text39 CODE >178:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+22EA text39 CODE >179:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+22F2 text39 CODE >180:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+22B6 text38 CODE >48:C:\Development\MaverickClock.X\timeCalculation.c
+22B6 text38 CODE >50:C:\Development\MaverickClock.X\timeCalculation.c
+22BD text38 CODE >52:C:\Development\MaverickClock.X\timeCalculation.c
+1E46 text37 CODE >37:C:\Development\MaverickClock.X\app.c
+1E46 text37 CODE >42:C:\Development\MaverickClock.X\app.c
+1E4B text37 CODE >43:C:\Development\MaverickClock.X\app.c
+1E4F text37 CODE >45:C:\Development\MaverickClock.X\app.c
+1E5B text37 CODE >46:C:\Development\MaverickClock.X\app.c
+1E67 text37 CODE >47:C:\Development\MaverickClock.X\app.c
+1E73 text37 CODE >48:C:\Development\MaverickClock.X\app.c
+1E7F text37 CODE >49:C:\Development\MaverickClock.X\app.c
+1E8B text37 CODE >50:C:\Development\MaverickClock.X\app.c
+1E97 text37 CODE >51:C:\Development\MaverickClock.X\app.c
+1EA3 text37 CODE >52:C:\Development\MaverickClock.X\app.c
+1EAF text37 CODE >54:C:\Development\MaverickClock.X\app.c
+1EC4 text37 CODE >59:C:\Development\MaverickClock.X\app.c
+1EC9 text37 CODE >43:C:\Development\MaverickClock.X\app.c
+1ECA text37 CODE >69:C:\Development\MaverickClock.X\app.c
+1EF6 text37 CODE >78:C:\Development\MaverickClock.X\app.c
+1EF9 text37 CODE >81:C:\Development\MaverickClock.X\app.c
+1EFC text37 CODE >82:C:\Development\MaverickClock.X\app.c
+1EFF text37 CODE >85:C:\Development\MaverickClock.X\app.c
+1F03 text37 CODE >86:C:\Development\MaverickClock.X\app.c
+1F06 text37 CODE >89:C:\Development\MaverickClock.X\app.c
+1F09 text37 CODE >92:C:\Development\MaverickClock.X\app.c
+1F11 text37 CODE >93:C:\Development\MaverickClock.X\app.c
+1F13 text37 CODE >96:C:\Development\MaverickClock.X\app.c
+23B0 text36 CODE >83:C:\Development\MaverickClock.X\rotaryEncoder.c
+23B0 text36 CODE >85:C:\Development\MaverickClock.X\rotaryEncoder.c
+23B9 text36 CODE >86:C:\Development\MaverickClock.X\rotaryEncoder.c
+23BE text36 CODE >88:C:\Development\MaverickClock.X\rotaryEncoder.c
+23BF text36 CODE >89:C:\Development\MaverickClock.X\rotaryEncoder.c
+1B86 text35 CODE >129:C:\Development\MaverickClock.X\ws2812b.c
+1B86 text35 CODE >135:C:\Development\MaverickClock.X\ws2812b.c
+1B9E text35 CODE >135:C:\Development\MaverickClock.X\ws2812b.c
+1BA2 text35 CODE >135:C:\Development\MaverickClock.X\ws2812b.c
+1BA4 text35 CODE >142:C:\Development\MaverickClock.X\ws2812b.c
+1BBE text35 CODE >144:C:\Development\MaverickClock.X\ws2812b.c
+1BC2 text35 CODE >149:C:\Development\MaverickClock.X\ws2812b.c
+1BC8 text35 CODE >150:C:\Development\MaverickClock.X\ws2812b.c
+1BD4 text35 CODE >151:C:\Development\MaverickClock.X\ws2812b.c
+1BE0 text35 CODE >153:C:\Development\MaverickClock.X\ws2812b.c
+1D87 text34 CODE >290:C:\Development\MaverickClock.X\clockLEDs.c
+1D89 text34 CODE >293:C:\Development\MaverickClock.X\clockLEDs.c
+1DAA text34 CODE >301:C:\Development\MaverickClock.X\clockLEDs.c
+1DB9 text34 CODE >306:C:\Development\MaverickClock.X\clockLEDs.c
+1DD6 text34 CODE >311:C:\Development\MaverickClock.X\clockLEDs.c
+1DF3 text34 CODE >316:C:\Development\MaverickClock.X\clockLEDs.c
+1DF4 text34 CODE >318:C:\Development\MaverickClock.X\clockLEDs.c
+1E04 text34 CODE >323:C:\Development\MaverickClock.X\clockLEDs.c
+1E20 text34 CODE >328:C:\Development\MaverickClock.X\clockLEDs.c
+1E21 text34 CODE >330:C:\Development\MaverickClock.X\clockLEDs.c
+1E29 text34 CODE >333:C:\Development\MaverickClock.X\clockLEDs.c
+1E45 text34 CODE >338:C:\Development\MaverickClock.X\clockLEDs.c
+1031 text33 CODE >56:C:\Development\MaverickClock.X\ws2812b.c
+1031 text33 CODE >58:C:\Development\MaverickClock.X\ws2812b.c
+103E text33 CODE >65:C:\Development\MaverickClock.X\ws2812b.c
+103F text33 CODE >66:C:\Development\MaverickClock.X\ws2812b.c
+1040 text33 CODE >69:C:\Development\MaverickClock.X\ws2812b.c
+1048 text33 CODE >70:C:\Development\MaverickClock.X\ws2812b.c
+104A text33 CODE >109:C:\Development\MaverickClock.X\ws2812b.c
+1055 text33 CODE >109:C:\Development\MaverickClock.X\ws2812b.c
+1059 text33 CODE >109:C:\Development\MaverickClock.X\ws2812b.c
+105B text33 CODE >73:C:\Development\MaverickClock.X\ws2812b.c
+105D text33 CODE >75:C:\Development\MaverickClock.X\ws2812b.c
+106D text33 CODE >77:C:\Development\MaverickClock.X\ws2812b.c
+1077 text33 CODE >78:C:\Development\MaverickClock.X\ws2812b.c
+1078 text33 CODE >81:C:\Development\MaverickClock.X\ws2812b.c
+1082 text33 CODE >83:C:\Development\MaverickClock.X\ws2812b.c
+108A text33 CODE >83:C:\Development\MaverickClock.X\ws2812b.c
+108C text33 CODE >83:C:\Development\MaverickClock.X\ws2812b.c
+108E text33 CODE >84:C:\Development\MaverickClock.X\ws2812b.c
+1090 text33 CODE >86:C:\Development\MaverickClock.X\ws2812b.c
+109F text33 CODE >88:C:\Development\MaverickClock.X\ws2812b.c
+10A9 text33 CODE >89:C:\Development\MaverickClock.X\ws2812b.c
+10AA text33 CODE >92:C:\Development\MaverickClock.X\ws2812b.c
+10B4 text33 CODE >94:C:\Development\MaverickClock.X\ws2812b.c
+10BC text33 CODE >94:C:\Development\MaverickClock.X\ws2812b.c
+10BE text33 CODE >94:C:\Development\MaverickClock.X\ws2812b.c
+10C0 text33 CODE >95:C:\Development\MaverickClock.X\ws2812b.c
+10C2 text33 CODE >97:C:\Development\MaverickClock.X\ws2812b.c
+10D2 text33 CODE >99:C:\Development\MaverickClock.X\ws2812b.c
+10DC text33 CODE >100:C:\Development\MaverickClock.X\ws2812b.c
+10DD text33 CODE >103:C:\Development\MaverickClock.X\ws2812b.c
+10E7 text33 CODE >105:C:\Development\MaverickClock.X\ws2812b.c
+10EF text33 CODE >105:C:\Development\MaverickClock.X\ws2812b.c
+10F1 text33 CODE >105:C:\Development\MaverickClock.X\ws2812b.c
+10F3 text33 CODE >107:C:\Development\MaverickClock.X\ws2812b.c
+10F7 text33 CODE >109:C:\Development\MaverickClock.X\ws2812b.c
+10FC text33 CODE >112:C:\Development\MaverickClock.X\ws2812b.c
+1106 text33 CODE >113:C:\Development\MaverickClock.X\ws2812b.c
+1110 text33 CODE >114:C:\Development\MaverickClock.X\ws2812b.c
+1114 text33 CODE >115:C:\Development\MaverickClock.X\ws2812b.c
+111E text33 CODE >117:C:\Development\MaverickClock.X\ws2812b.c
+111F text33 CODE >118:C:\Development\MaverickClock.X\ws2812b.c
+1120 text33 CODE >120:C:\Development\MaverickClock.X\ws2812b.c
+1BE1 text32 CODE >228:C:\Development\MaverickClock.X\ws2812b.c
+1BE1 text32 CODE >233:C:\Development\MaverickClock.X\ws2812b.c
+1BFB text32 CODE >233:C:\Development\MaverickClock.X\ws2812b.c
+1BFF text32 CODE >233:C:\Development\MaverickClock.X\ws2812b.c
+1C01 text32 CODE >240:C:\Development\MaverickClock.X\ws2812b.c
+1C1B text32 CODE >243:C:\Development\MaverickClock.X\ws2812b.c
+1C1F text32 CODE >244:C:\Development\MaverickClock.X\ws2812b.c
+1C23 text32 CODE >246:C:\Development\MaverickClock.X\ws2812b.c
+1C3D text32 CODE >248:C:\Development\MaverickClock.X\ws2812b.c
+1121 text31 CODE >347:C:\Development\MaverickClock.X\clockLEDs.c
+1121 text31 CODE >349:C:\Development\MaverickClock.X\clockLEDs.c
+115E text31 CODE >353:C:\Development\MaverickClock.X\clockLEDs.c
+1167 text31 CODE >353:C:\Development\MaverickClock.X\clockLEDs.c
+11A2 text31 CODE >357:C:\Development\MaverickClock.X\clockLEDs.c
+11AB text31 CODE >357:C:\Development\MaverickClock.X\clockLEDs.c
+11E6 text31 CODE >361:C:\Development\MaverickClock.X\clockLEDs.c
+11EF text31 CODE >361:C:\Development\MaverickClock.X\clockLEDs.c
+122A text31 CODE >365:C:\Development\MaverickClock.X\clockLEDs.c
+1233 text31 CODE >365:C:\Development\MaverickClock.X\clockLEDs.c
+123A text31 CODE >366:C:\Development\MaverickClock.X\clockLEDs.c
+1241 text31 CODE >368:C:\Development\MaverickClock.X\clockLEDs.c
+2513 text30 CODE >180:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2513 text30 CODE >182:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2518 text30 CODE >184:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+251B text30 CODE >185:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+251F text30 CODE >186:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2523 text30 CODE >187:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2524 text30 CODE >188:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2525 text30 CODE >189:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2526 text30 CODE >190:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2528 text30 CODE >191:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+252A text30 CODE >192:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+252B text30 CODE >194:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+252B text30 CODE >196:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+252D text30 CODE >198:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+252E text30 CODE >199:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2530 text30 CODE >199:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2532 text30 CODE >199:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2534 text30 CODE >200:C:\Development\MaverickClock.X\mcc_generated_files/memory.c
+2535 text29 CODE >76:C:\Development\MaverickClock.X\rotaryEncoder.c
+2535 text29 CODE >78:C:\Development\MaverickClock.X\rotaryEncoder.c
+2543 text29 CODE >79:C:\Development\MaverickClock.X\rotaryEncoder.c
+254E text29 CODE >80:C:\Development\MaverickClock.X\rotaryEncoder.c
+2556 text29 CODE >81:C:\Development\MaverickClock.X\rotaryEncoder.c
+23D1 text28 CODE >91:C:\Development\MaverickClock.X\rotaryEncoder.c
+23D1 text28 CODE >93:C:\Development\MaverickClock.X\rotaryEncoder.c
+23DA text28 CODE >95:C:\Development\MaverickClock.X\rotaryEncoder.c
+23E0 text28 CODE >96:C:\Development\MaverickClock.X\rotaryEncoder.c
+23E2 text28 CODE >100:C:\Development\MaverickClock.X\rotaryEncoder.c
+23E3 text28 CODE >102:C:\Development\MaverickClock.X\rotaryEncoder.c
+23C0 text27 CODE >103:C:\Development\MaverickClock.X\timeCalculation.c
+23C0 text27 CODE >105:C:\Development\MaverickClock.X\timeCalculation.c
+23D0 text27 CODE >106:C:\Development\MaverickClock.X\timeCalculation.c
+1242 text26 CODE >169:C:\Development\MaverickClock.X\clockLEDs.c
+1244 text26 CODE >177:C:\Development\MaverickClock.X\clockLEDs.c
+1249 text26 CODE >177:C:\Development\MaverickClock.X\clockLEDs.c
+124B text26 CODE >179:C:\Development\MaverickClock.X\clockLEDs.c
+1252 text26 CODE >180:C:\Development\MaverickClock.X\clockLEDs.c
+1285 text26 CODE >184:C:\Development\MaverickClock.X\clockLEDs.c
+1285 text26 CODE >185:C:\Development\MaverickClock.X\clockLEDs.c
+128C text26 CODE >185:C:\Development\MaverickClock.X\clockLEDs.c
+128E text26 CODE >187:C:\Development\MaverickClock.X\clockLEDs.c
+1295 text26 CODE >188:C:\Development\MaverickClock.X\clockLEDs.c
+12C9 text26 CODE >193:C:\Development\MaverickClock.X\clockLEDs.c
+12D1 text26 CODE >193:C:\Development\MaverickClock.X\clockLEDs.c
+12D3 text26 CODE >195:C:\Development\MaverickClock.X\clockLEDs.c
+12DA text26 CODE >196:C:\Development\MaverickClock.X\clockLEDs.c
+130F text26 CODE >201:C:\Development\MaverickClock.X\clockLEDs.c
+1317 text26 CODE >201:C:\Development\MaverickClock.X\clockLEDs.c
+1319 text26 CODE >203:C:\Development\MaverickClock.X\clockLEDs.c
+1320 text26 CODE >207:C:\Development\MaverickClock.X\clockLEDs.c
+1355 text26 CODE >213:C:\Development\MaverickClock.X\clockLEDs.c
+135E text26 CODE >215:C:\Development\MaverickClock.X\clockLEDs.c
+1365 text26 CODE >217:C:\Development\MaverickClock.X\clockLEDs.c
+1AE1 text25 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AE1 text25 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AE3 text25 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AE5 text25 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AE8 text25 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AEA text25 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AEC text25 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AEE text25 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AF1 text25 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AF3 text25 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AF7 text25 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AF9 text25 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AFD text25 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1AFF text25 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B01 text25 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B06 text25 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B0A text25 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B0B text25 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B10 text25 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B12 text25 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B16 text25 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B18 text25 CODE >32:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B1C text25 CODE >33:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B1D text25 CODE >35:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B22 text25 CODE >36:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B26 text25 CODE >38:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B29 text25 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B2C text25 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B2E text25 CODE >40:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+1B32 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awdiv.c
+26DB text24 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26DB text24 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26DD text24 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26DF text24 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26E2 text24 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26E4 text24 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26E6 text24 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26E8 text24 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26EB text24 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26ED text24 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26F1 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26F3 text24 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26F5 text24 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26FA text24 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26FE text24 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+26FF text24 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2701 text24 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2705 text24 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2707 text24 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+270B text24 CODE >28:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2710 text24 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2714 text24 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2717 text24 CODE >32:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+271A text24 CODE >32:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+271C text24 CODE >33:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+2720 text24 CODE >34:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\awmod.c
+1B33 text23 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B33 text23 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B3C text23 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B40 text23 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B42 text23 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B44 text23 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B46 text23 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B4D text23 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B51 text23 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B52 text23 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B59 text23 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B5B text23 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B5F text23 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B63 text23 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B67 text23 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B69 text23 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B71 text23 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B72 text23 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B79 text23 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B7D text23 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+1B85 text23 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\__lldiv.c
+2667 text22 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2667 text22 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+266A text22 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+266E text22 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2670 text22 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2672 text22 CODE >17:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2677 text22 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+267B text22 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+267C text22 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2681 text22 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2683 text22 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2687 text22 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2689 text22 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+268D text22 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+268E text22 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2693 text22 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+2697 text22 CODE >29:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+269B text22 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwdiv.c
+25D5 text21 CODE >5:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25D5 text21 CODE >12:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25DA text21 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25DC text21 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25DE text21 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25E3 text21 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25E7 text21 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25E8 text21 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25EA text21 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25EE text21 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25F0 text21 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25F4 text21 CODE >21:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25F9 text21 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+25FD text21 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+2601 text21 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\lwmod.c
+1F14 text20 CODE >108:C:\Development\MaverickClock.X\timeCalculation.c
+1F14 text20 CODE >111:C:\Development\MaverickClock.X\timeCalculation.c
+1F38 text20 CODE >115:C:\Development\MaverickClock.X\timeCalculation.c
+1F4F text20 CODE >116:C:\Development\MaverickClock.X\timeCalculation.c
+1F65 text20 CODE >118:C:\Development\MaverickClock.X\timeCalculation.c
+1FF1 text20 CODE >125:C:\Development\MaverickClock.X\timeCalculation.c
+1FF4 text20 CODE >127:C:\Development\MaverickClock.X\timeCalculation.c
+1FFC text20 CODE >130:C:\Development\MaverickClock.X\timeCalculation.c
+1FFF text20 CODE >132:C:\Development\MaverickClock.X\timeCalculation.c
+884 text19 CODE >62:C:\Development\MaverickClock.X\changeColorMode.c
+884 text19 CODE >65:C:\Development\MaverickClock.X\changeColorMode.c
+88B text19 CODE >72:C:\Development\MaverickClock.X\changeColorMode.c
+88E text19 CODE >73:C:\Development\MaverickClock.X\changeColorMode.c
+896 text19 CODE >75:C:\Development\MaverickClock.X\changeColorMode.c
+899 text19 CODE >78:C:\Development\MaverickClock.X\changeColorMode.c
+89B text19 CODE >83:C:\Development\MaverickClock.X\changeColorMode.c
+8AE text19 CODE >85:C:\Development\MaverickClock.X\changeColorMode.c
+8B2 text19 CODE >85:C:\Development\MaverickClock.X\changeColorMode.c
+8B4 text19 CODE >87:C:\Development\MaverickClock.X\changeColorMode.c
+8BA text19 CODE >88:C:\Development\MaverickClock.X\changeColorMode.c
+8BF text19 CODE >88:C:\Development\MaverickClock.X\changeColorMode.c
+8D8 text19 CODE >89:C:\Development\MaverickClock.X\changeColorMode.c
+93B text19 CODE >92:C:\Development\MaverickClock.X\changeColorMode.c
+93E text19 CODE >93:C:\Development\MaverickClock.X\changeColorMode.c
+946 text19 CODE >95:C:\Development\MaverickClock.X\changeColorMode.c
+94A text19 CODE >95:C:\Development\MaverickClock.X\changeColorMode.c
+94C text19 CODE >100:C:\Development\MaverickClock.X\changeColorMode.c
+9B6 text19 CODE >106:C:\Development\MaverickClock.X\changeColorMode.c
+9B9 text19 CODE >110:C:\Development\MaverickClock.X\changeColorMode.c
+9CC text19 CODE >112:C:\Development\MaverickClock.X\changeColorMode.c
+9D0 text19 CODE >112:C:\Development\MaverickClock.X\changeColorMode.c
+9D2 text19 CODE >114:C:\Development\MaverickClock.X\changeColorMode.c
+9D8 text19 CODE >115:C:\Development\MaverickClock.X\changeColorMode.c
+9DD text19 CODE >115:C:\Development\MaverickClock.X\changeColorMode.c
+9F6 text19 CODE >116:C:\Development\MaverickClock.X\changeColorMode.c
+A59 text19 CODE >119:C:\Development\MaverickClock.X\changeColorMode.c
+A5C text19 CODE >120:C:\Development\MaverickClock.X\changeColorMode.c
+A64 text19 CODE >122:C:\Development\MaverickClock.X\changeColorMode.c
+A68 text19 CODE >122:C:\Development\MaverickClock.X\changeColorMode.c
+A6A text19 CODE >125:C:\Development\MaverickClock.X\changeColorMode.c
+AD4 text19 CODE >132:C:\Development\MaverickClock.X\changeColorMode.c
+AEC text19 CODE >133:C:\Development\MaverickClock.X\changeColorMode.c
+B08 text19 CODE >136:C:\Development\MaverickClock.X\changeColorMode.c
+B0C text19 CODE >139:C:\Development\MaverickClock.X\changeColorMode.c
+B10 text19 CODE >142:C:\Development\MaverickClock.X\changeColorMode.c
+B1F text19 CODE >143:C:\Development\MaverickClock.X\changeColorMode.c
+B2E text19 CODE >144:C:\Development\MaverickClock.X\changeColorMode.c
+B3D text19 CODE >145:C:\Development\MaverickClock.X\changeColorMode.c
+B4C text19 CODE >146:C:\Development\MaverickClock.X\changeColorMode.c
+B5B text19 CODE >147:C:\Development\MaverickClock.X\changeColorMode.c
+B6A text19 CODE >148:C:\Development\MaverickClock.X\changeColorMode.c
+B79 text19 CODE >149:C:\Development\MaverickClock.X\changeColorMode.c
+B88 text19 CODE >151:C:\Development\MaverickClock.X\changeColorMode.c
+B95 text19 CODE >153:C:\Development\MaverickClock.X\changeColorMode.c
+BA2 text19 CODE >154:C:\Development\MaverickClock.X\changeColorMode.c
+BAF text19 CODE >155:C:\Development\MaverickClock.X\changeColorMode.c
+BBC text19 CODE >156:C:\Development\MaverickClock.X\changeColorMode.c
+BC9 text19 CODE >157:C:\Development\MaverickClock.X\changeColorMode.c
+BD6 text19 CODE >158:C:\Development\MaverickClock.X\changeColorMode.c
+BE3 text19 CODE >159:C:\Development\MaverickClock.X\changeColorMode.c
+BF0 text19 CODE >160:C:\Development\MaverickClock.X\changeColorMode.c
+BFD text19 CODE >162:C:\Development\MaverickClock.X\changeColorMode.c
+C12 text19 CODE >167:C:\Development\MaverickClock.X\changeColorMode.c
+C17 text19 CODE >139:C:\Development\MaverickClock.X\changeColorMode.c
+C18 text19 CODE >180:C:\Development\MaverickClock.X\changeColorMode.c
+C2B text19 CODE >181:C:\Development\MaverickClock.X\changeColorMode.c
+C3D text19 CODE >183:C:\Development\MaverickClock.X\changeColorMode.c
+1001 text18 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1001 text18 CODE >119:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+100A text18 CODE >121:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+100C text18 CODE >122:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1014 text18 CODE >123:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+101B text18 CODE >124:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1022 text18 CODE >125:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1026 text18 CODE >125:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1028 text18 CODE >128:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+1030 text18 CODE >129:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+2769 text17 CODE >11:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\rand.c
+2769 text17 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\rand.c
+2798 text17 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\rand.c
+27B2 text17 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\rand.c
+45D text16 CODE >647:C:\Development\MaverickClock.X\clockLEDs.c
+45D text16 CODE >652:C:\Development\MaverickClock.X\clockLEDs.c
+4B8 text16 CODE >657:C:\Development\MaverickClock.X\clockLEDs.c
+513 text16 CODE >662:C:\Development\MaverickClock.X\clockLEDs.c
+56E text16 CODE >667:C:\Development\MaverickClock.X\clockLEDs.c
+5C9 text16 CODE >672:C:\Development\MaverickClock.X\clockLEDs.c
+624 text16 CODE >677:C:\Development\MaverickClock.X\clockLEDs.c
+67F text16 CODE >682:C:\Development\MaverickClock.X\clockLEDs.c
+6DA text16 CODE >687:C:\Development\MaverickClock.X\clockLEDs.c
+735 text16 CODE >692:C:\Development\MaverickClock.X\clockLEDs.c
+73D text16 CODE >693:C:\Development\MaverickClock.X\clockLEDs.c
+74A text16 CODE >694:C:\Development\MaverickClock.X\clockLEDs.c
+74F text16 CODE >695:C:\Development\MaverickClock.X\clockLEDs.c
+754 text16 CODE >697:C:\Development\MaverickClock.X\clockLEDs.c
+75E text16 CODE >701:C:\Development\MaverickClock.X\clockLEDs.c
+761 text16 CODE >704:C:\Development\MaverickClock.X\clockLEDs.c
+2721 text15 CODE >380:C:\Development\MaverickClock.X\clockLEDs.c
+2721 text15 CODE >385:C:\Development\MaverickClock.X\clockLEDs.c
+273D text15 CODE >390:C:\Development\MaverickClock.X\clockLEDs.c
+2745 text15 CODE >392:C:\Development\MaverickClock.X\clockLEDs.c
+2751 text15 CODE >393:C:\Development\MaverickClock.X\clockLEDs.c
+2757 text15 CODE >395:C:\Development\MaverickClock.X\clockLEDs.c
+2759 text15 CODE >396:C:\Development\MaverickClock.X\clockLEDs.c
+2763 text15 CODE >400:C:\Development\MaverickClock.X\clockLEDs.c
+2764 text15 CODE >403:C:\Development\MaverickClock.X\clockLEDs.c
+2768 text15 CODE >406:C:\Development\MaverickClock.X\clockLEDs.c
+C3E text14 CODE >425:C:\Development\MaverickClock.X\clockLEDs.c
+C3E text14 CODE >435:C:\Development\MaverickClock.X\clockLEDs.c
+C42 text14 CODE >437:C:\Development\MaverickClock.X\clockLEDs.c
+C97 text14 CODE >445:C:\Development\MaverickClock.X\clockLEDs.c
+C9B text14 CODE >447:C:\Development\MaverickClock.X\clockLEDs.c
+D06 text14 CODE >452:C:\Development\MaverickClock.X\clockLEDs.c
+D71 text14 CODE >457:C:\Development\MaverickClock.X\clockLEDs.c
+DC6 text14 CODE >467:C:\Development\MaverickClock.X\clockLEDs.c
+E31 text14 CODE >472:C:\Development\MaverickClock.X\clockLEDs.c
+E9C text14 CODE >477:C:\Development\MaverickClock.X\clockLEDs.c
+F07 text14 CODE >482:C:\Development\MaverickClock.X\clockLEDs.c
+F72 text14 CODE >487:C:\Development\MaverickClock.X\clockLEDs.c
+FDD text14 CODE >497:C:\Development\MaverickClock.X\clockLEDs.c
+FE2 text14 CODE >499:C:\Development\MaverickClock.X\clockLEDs.c
+FE4 text14 CODE >500:C:\Development\MaverickClock.X\clockLEDs.c
+FF4 text14 CODE >504:C:\Development\MaverickClock.X\clockLEDs.c
+FF8 text14 CODE >506:C:\Development\MaverickClock.X\clockLEDs.c
+FFF text14 CODE >509:C:\Development\MaverickClock.X\clockLEDs.c
+7B text13 CODE >511:C:\Development\MaverickClock.X\clockLEDs.c
+7B text13 CODE >521:C:\Development\MaverickClock.X\clockLEDs.c
+80 text13 CODE >523:C:\Development\MaverickClock.X\clockLEDs.c
+D6 text13 CODE >531:C:\Development\MaverickClock.X\clockLEDs.c
+DA text13 CODE >533:C:\Development\MaverickClock.X\clockLEDs.c
+147 text13 CODE >538:C:\Development\MaverickClock.X\clockLEDs.c
+1B4 text13 CODE >543:C:\Development\MaverickClock.X\clockLEDs.c
+20A text13 CODE >553:C:\Development\MaverickClock.X\clockLEDs.c
+277 text13 CODE >558:C:\Development\MaverickClock.X\clockLEDs.c
+2E4 text13 CODE >563:C:\Development\MaverickClock.X\clockLEDs.c
+351 text13 CODE >568:C:\Development\MaverickClock.X\clockLEDs.c
+3BE text13 CODE >573:C:\Development\MaverickClock.X\clockLEDs.c
+42B text13 CODE >583:C:\Development\MaverickClock.X\clockLEDs.c
+431 text13 CODE >585:C:\Development\MaverickClock.X\clockLEDs.c
+433 text13 CODE >586:C:\Development\MaverickClock.X\clockLEDs.c
+443 text13 CODE >590:C:\Development\MaverickClock.X\clockLEDs.c
+447 text13 CODE >592:C:\Development\MaverickClock.X\clockLEDs.c
+44F text13 CODE >593:C:\Development\MaverickClock.X\clockLEDs.c
+45C text13 CODE >595:C:\Development\MaverickClock.X\clockLEDs.c
+1507 text12 CODE >597:C:\Development\MaverickClock.X\clockLEDs.c
+1507 text12 CODE >599:C:\Development\MaverickClock.X\clockLEDs.c
+1512 text12 CODE >603:C:\Development\MaverickClock.X\clockLEDs.c
+156D text12 CODE >608:C:\Development\MaverickClock.X\clockLEDs.c
+15C8 text12 CODE >613:C:\Development\MaverickClock.X\clockLEDs.c
+1623 text12 CODE >618:C:\Development\MaverickClock.X\clockLEDs.c
+167E text12 CODE >623:C:\Development\MaverickClock.X\clockLEDs.c
+16D9 text12 CODE >628:C:\Development\MaverickClock.X\clockLEDs.c
+1734 text12 CODE >633:C:\Development\MaverickClock.X\clockLEDs.c
+178F text12 CODE >638:C:\Development\MaverickClock.X\clockLEDs.c
+17EA text12 CODE >643:C:\Development\MaverickClock.X\clockLEDs.c
+17F2 text12 CODE >644:C:\Development\MaverickClock.X\clockLEDs.c
+17FF text12 CODE >645:C:\Development\MaverickClock.X\clockLEDs.c
+1C3E text11 CODE >29:C:\Development\MaverickClock.X\patternMode.c
+1C3E text11 CODE >36:C:\Development\MaverickClock.X\patternMode.c
+1C51 text11 CODE >38:C:\Development\MaverickClock.X\patternMode.c
+1C55 text11 CODE >38:C:\Development\MaverickClock.X\patternMode.c
+1C57 text11 CODE >40:C:\Development\MaverickClock.X\patternMode.c
+1C5F text11 CODE >41:C:\Development\MaverickClock.X\patternMode.c
+1C92 text11 CODE >44:C:\Development\MaverickClock.X\patternMode.c
+1C9C text11 CODE >46:C:\Development\MaverickClock.X\patternMode.c
+1366 text10 CODE >66:C:\Development\MaverickClock.X\timeCalculation.c
+1368 text10 CODE >72:C:\Development\MaverickClock.X\timeCalculation.c
+137B text10 CODE >74:C:\Development\MaverickClock.X\timeCalculation.c
+137E text10 CODE >76:C:\Development\MaverickClock.X\timeCalculation.c
+13AA text10 CODE >77:C:\Development\MaverickClock.X\timeCalculation.c
+13AA text10 CODE >79:C:\Development\MaverickClock.X\timeCalculation.c
+13E0 text10 CODE >80:C:\Development\MaverickClock.X\timeCalculation.c
+1412 text10 CODE >81:C:\Development\MaverickClock.X\timeCalculation.c
+141A text10 CODE >82:C:\Development\MaverickClock.X\timeCalculation.c
+143E text10 CODE >85:C:\Development\MaverickClock.X\timeCalculation.c
+1440 text10 CODE >85:C:\Development\MaverickClock.X\timeCalculation.c
+1444 text10 CODE >85:C:\Development\MaverickClock.X\timeCalculation.c
+1446 text10 CODE >87:C:\Development\MaverickClock.X\timeCalculation.c
+144A text10 CODE >88:C:\Development\MaverickClock.X\timeCalculation.c
+1461 text10 CODE >89:C:\Development\MaverickClock.X\timeCalculation.c
+1477 text10 CODE >91:C:\Development\MaverickClock.X\timeCalculation.c
+1503 text10 CODE >98:C:\Development\MaverickClock.X\timeCalculation.c
+1506 text10 CODE >101:C:\Development\MaverickClock.X\timeCalculation.c
+1C9D text9 CODE >98:C:\Development\MaverickClock.X\app.c
+1C9D text9 CODE >103:C:\Development\MaverickClock.X\app.c
+1CA1 text9 CODE >103:C:\Development\MaverickClock.X\app.c
+1CA4 text9 CODE >108:C:\Development\MaverickClock.X\app.c
+1CA9 text9 CODE >110:C:\Development\MaverickClock.X\app.c
+1CAC text9 CODE >111:C:\Development\MaverickClock.X\app.c
+1CAE text9 CODE >112:C:\Development\MaverickClock.X\app.c
+1CAF text9 CODE >113:C:\Development\MaverickClock.X\app.c
+1CB2 text9 CODE >115:C:\Development\MaverickClock.X\app.c
+1CB8 text9 CODE >116:C:\Development\MaverickClock.X\app.c
+1CB9 text9 CODE >122:C:\Development\MaverickClock.X\app.c
+1CB9 text9 CODE >123:C:\Development\MaverickClock.X\app.c
+1CBC text9 CODE >124:C:\Development\MaverickClock.X\app.c
+1CBD text9 CODE >126:C:\Development\MaverickClock.X\app.c
+1CC1 text9 CODE >128:C:\Development\MaverickClock.X\app.c
+1CC7 text9 CODE >134:C:\Development\MaverickClock.X\app.c
+1CCF text9 CODE >134:C:\Development\MaverickClock.X\app.c
+1CD4 text9 CODE >134:C:\Development\MaverickClock.X\app.c
+1CD7 text9 CODE >134:C:\Development\MaverickClock.X\app.c
+1CDA text9 CODE >134:C:\Development\MaverickClock.X\app.c
+1CDE text9 CODE >141:C:\Development\MaverickClock.X\app.c
+1CE1 text9 CODE >142:C:\Development\MaverickClock.X\app.c
+1CE2 text9 CODE >144:C:\Development\MaverickClock.X\app.c
+1CE4 text9 CODE >145:C:\Development\MaverickClock.X\app.c
+1CE6 text9 CODE >146:C:\Development\MaverickClock.X\app.c
+1CE7 text9 CODE >148:C:\Development\MaverickClock.X\app.c
+1CE9 text9 CODE >149:C:\Development\MaverickClock.X\app.c
+1CEA text9 CODE >152:C:\Development\MaverickClock.X\app.c
+1CF1 text9 CODE >152:C:\Development\MaverickClock.X\app.c
+1CF6 text9 CODE >152:C:\Development\MaverickClock.X\app.c
+1CF9 text9 CODE >152:C:\Development\MaverickClock.X\app.c
+1CFC text9 CODE >152:C:\Development\MaverickClock.X\app.c
+1CFF text9 CODE >154:C:\Development\MaverickClock.X\app.c
+22F3 text8 CODE >62:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22F3 text8 CODE >65:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22F6 text8 CODE >67:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22F7 text8 CODE >69:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22F8 text8 CODE >71:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22FA text8 CODE >73:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22FB text8 CODE >74:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+269C text7 CODE >59:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+269C text7 CODE >64:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+269E text7 CODE >65:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+269F text7 CODE >70:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26A2 text7 CODE >71:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26A4 text7 CODE >76:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26A6 text7 CODE >77:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26A8 text7 CODE >82:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26AA text7 CODE >83:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26AB text7 CODE >88:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26AD text7 CODE >89:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26AE text7 CODE >94:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26B1 text7 CODE >95:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26B3 text7 CODE >100:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26B6 text7 CODE >101:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26B8 text7 CODE >108:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26B9 text7 CODE >110:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26BA text7 CODE >112:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26BB text7 CODE >114:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26BC text7 CODE >116:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26BD text7 CODE >118:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26BE text7 CODE >120:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26BF text7 CODE >122:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26C0 text7 CODE >124:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26C1 text7 CODE >129:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26C9 text7 CODE >130:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26D1 text7 CODE >131:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26D8 text7 CODE >134:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+26DA text7 CODE >136:C:\Development\MaverickClock.X\mcc_generated_files/pin_manager.c
+22BE text6 CODE >82:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22BE text6 CODE >85:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22C0 text6 CODE >87:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22C1 text6 CODE >89:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22C2 text6 CODE >91:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22C3 text6 CODE >93:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22C4 text6 CODE >95:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22C5 text6 CODE >96:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+244A text5 CODE >64:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+244A text5 CODE >69:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+244C text5 CODE >72:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+244E text5 CODE >75:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2450 text5 CODE >78:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2451 text5 CODE >81:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2458 text5 CODE >84:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2459 text5 CODE >87:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2460 text5 CODE >90:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+2463 text5 CODE >91:C:\Development\MaverickClock.X\mcc_generated_files/tmr1.c
+23E4 text4 CODE >63:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23E4 text4 CODE >68:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23E6 text4 CODE >71:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23E7 text4 CODE >74:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23E9 text4 CODE >77:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23EB text4 CODE >80:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23F3 text4 CODE >83:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+23F6 text4 CODE >84:C:\Development\MaverickClock.X\mcc_generated_files/tmr3.c
+249A text3 CODE >64:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+249A text3 CODE >69:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+249C text3 CODE >72:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+249E text3 CODE >75:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+24A0 text3 CODE >78:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+24A2 text3 CODE >81:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+24AA text3 CODE >84:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+24AB text3 CODE >87:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+24B2 text3 CODE >90:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+24B5 text3 CODE >91:C:\Development\MaverickClock.X\mcc_generated_files/tmr5.c
+22AD text2 CODE >76:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22AD text2 CODE >79:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+22B0 text2 CODE >80:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+241F text1 CODE >50:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+241F text1 CODE >53:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+2422 text1 CODE >54:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+2425 text1 CODE >55:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+2428 text1 CODE >56:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+242B text1 CODE >57:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+242E text1 CODE >58:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+2431 text1 CODE >59:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+2433 text1 CODE >60:C:\Development\MaverickClock.X\mcc_generated_files/mcc.c
+231E maintext CODE >4:C:\Development\MaverickClock.X\main.c
+231E maintext CODE >6:C:\Development\MaverickClock.X\main.c
+2321 maintext CODE >7:C:\Development\MaverickClock.X\main.c
+2324 maintext CODE >8:C:\Development\MaverickClock.X\main.c
+2325 maintext CODE >9:C:\Development\MaverickClock.X\main.c
+2326 maintext CODE >12:C:\Development\MaverickClock.X\main.c
+232A clrtext CODE >11921:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232A clrtext CODE >11922:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232B clrtext CODE >11923:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232B clrtext CODE >11924:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232C clrtext CODE >11925:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232D clrtext CODE >11926:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232E clrtext CODE >11927:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+232F clrtext CODE >11928:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2330 clrtext CODE >11929:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2331 clrtext CODE >11930:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2332 clrtext CODE >11931:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2333 clrtext CODE >11932:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2334 clrtext CODE >11934:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2335 clrtext CODE >11933:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2336 inittext CODE >11867:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2336 inittext CODE >11868:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2337 inittext CODE >11869:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2337 inittext CODE >11870:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2338 inittext CODE >11871:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2339 inittext CODE >11872:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+233A inittext CODE >11873:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+233B inittext CODE >11874:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+233C inittext CODE >11875:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+233D inittext CODE >11876:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+233E inittext CODE >11877:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+233F inittext CODE >11878:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2340 inittext CODE >11880:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+2341 inittext CODE >11879:C:\Development\MaverickClock.X\dist/default/production\MaverickClock.X.production.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 3 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+___awdiv@counter 47 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_APP_TASKS 3A00 0 CODE 0 text9 dist/default/production\MaverickClock.X.production.o
+___lwmod@counter 40 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__LdataBANK3 0 0 ABS 0 dataBANK3 -
+__Hspace_0 28B6 0 ABS 0 - -
+__Hspace_1 1DD 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10012 0 ABS 0 - -
+Time_RenderIfMinutesHaveChanged@thisTimeInSeconds B1 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__HidataBANK3 0 0 ABS 0 idataBANK3 -
+WS2812b_CopyPixelBufferArrayFromSource@startAddress 3F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@isSwitchPressHrMnMode A4 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+?_TMR3_ReadTimer 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_InitializeClockLEDs 4C68 0 CODE 0 text59 dist/default/production\MaverickClock.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_RotaryEncoder_Enable 3522 0 CODE 0 text49 dist/default/production\MaverickClock.X.production.o
+__end_of_Time_IncrementSecondsISR 3486 0 CODE 0 text69 dist/default/production\MaverickClock.X.production.o
+_T1CONbits 1B 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD_Initialize 457C 0 CODE 0 text6 dist/default/production\MaverickClock.X.production.o
+__end_of_PIN_MANAGER_IOC 1000 0 CODE 0 text75 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_SetDigitRGBArray 483E 0 CODE 0 text61 dist/default/production\MaverickClock.X.production.o
+__end_of_WDT_Initialize 4562 0 CODE 0 text2 dist/default/production\MaverickClock.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+Clock_FixDigit4LastThreePixels@digit4Value 52 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+i1TMR3_ReadTimer@readVal 77 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+_LATA 10C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_LATC 10E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD0 911 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD1 912 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD2 913 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD3 914 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD4 915 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PMD5 916 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_WPUA 20C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_WPUC 20E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+___sp 0 0 STACK 2 stack dist/default/production\startup.o
+_main 463C 0 CODE 0 maintext dist/default/production\MaverickClock.X.production.o
+_rand 4ED2 0 CODE 0 text17 dist/default/production\MaverickClock.X.production.o
+_row1 513C 0 STRCODE 0 stringtext8 dist/default/production\MaverickClock.X.production.o
+_row2 510A 0 STRCODE 0 stringtext6 dist/default/production\MaverickClock.X.production.o
+_row3 50D4 0 STRCODE 0 stringtext4 dist/default/production\MaverickClock.X.production.o
+_row4 50F0 0 STRCODE 0 stringtext5 dist/default/production\MaverickClock.X.production.o
+_row5 5124 0 STRCODE 0 stringtext7 dist/default/production\MaverickClock.X.production.o
+_seed 147 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_APP_TASKS 393A 0 CODE 0 text9 dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@minutesDelta A9 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+start 4C 0 CODE 0 init dist/default/production\startup.o
+WS2812b_SetStripConstantColor@red 51 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Hstringtext10 0 0 ABS 0 stringtext10 -
+__Hstringtext11 0 0 ABS 0 stringtext11 -
+__Hstringtext12 0 0 ABS 0 stringtext12 -
+__Hstringtext13 0 0 ABS 0 stringtext13 -
+__Hstringtext14 0 0 ABS 0 stringtext14 -
+__Hstringtext15 0 0 ABS 0 stringtext15 -
+TMR5_WriteTimer@timerVal 70 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+_Clock_WriteTimeDigitValuesAndRenderScreen$2391 59 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_Time_GetCurrentTimeInSeconds 47A2 0 CODE 0 text27 dist/default/production\MaverickClock.X.production.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+TMR3_ReadTimer@readValLow 33 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___lmul 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___wmul 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+i1TMR3_ReadTimer@readValHigh 79 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+__end_of_STATE_PatternMode 393A 0 CODE 0 text11 dist/default/production\MaverickClock.X.production.o
+Time_RenderInputTime@F6462 134 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__LidataBANK3 0 0 ABS 0 idataBANK3 -
+_colorRGBArrays 5000 0 STRCODE 0 stringtext2 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@eepromReadbackData 1A4 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF4_SetInterruptHandler 45B0 0 CODE 0 text47 dist/default/production\MaverickClock.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+Time_RenderInputTime@hours AA 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPattern$2393 52 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPattern$2394 53 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPattern$2395 54 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___awmod@sign 41 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812B_Render@thisPixel 2F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___resetbits 20 0 ABS 0 - dist/default/production\startup.o
+?_Time_GetCurrentTimeInSeconds 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@numPixelsToSet 3F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_Initialize@numElements 2B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_WS2812b_CopyPixelBufferArrayFromSource 37C2 0 CODE 0 text32 dist/default/production\MaverickClock.X.production.o
+RotaryEncoder_GetShaftCounts@thisCountValue 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+intlevel0 0 0 ENTRY 0 functab dist/default/production\startup.o
+intlevel1 0 0 ENTRY 0 functab dist/default/production\startup.o
+intlevel2 0 0 ENTRY 0 functab dist/default/production\startup.o
+intlevel3 0 0 ENTRY 0 functab dist/default/production\startup.o
+intlevel4 0 0 ENTRY 0 functab dist/default/production\startup.o
+intlevel5 0 0 ENTRY 0 functab dist/default/production\startup.o
+__end_of_WS2812b_CopyPixelBufferArrayFromSource 387C 0 CODE 0 text32 dist/default/production\MaverickClock.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+_IOCCF3_ISR 4684 0 CODE 0 text84 dist/default/production\MaverickClock.X.production.o
+_IOCCF4_ISR 469E 0 CODE 0 text80 dist/default/production\MaverickClock.X.production.o
+_IOCCF5_ISR 46B8 0 CODE 0 text76 dist/default/production\MaverickClock.X.production.o
+Clock_SetDigitRGBArray@blue 30 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_ledArray 62 0 BANK0 1 bssBANK0 dist/default/production\MaverickClock.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+WS2812b_SetSinglePixelColor@pixelIndex 44 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_IOCCF3_DefaultInterruptHandler 3400 0 CODE 0 text81 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_PrerenderPixelAndBackgroundValues 4C68 0 CODE 0 text53 dist/default/production\MaverickClock.X.production.o
+_PIN_MANAGER_IOC FDC 0 CODE 0 text75 dist/default/production\MaverickClock.X.production.o
+__end_of_PMD_Initialize 458C 0 CODE 0 text6 dist/default/production\MaverickClock.X.production.o
+_Time_RenderIfMinutesHaveChanged$1035 A5 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+Time_RenderInputTime@setCurrentTime A4 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+_IOCCF3_SetInterruptHandler 458C 0 CODE 0 text48 dist/default/production\MaverickClock.X.production.o
+___awdiv@sign 48 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+Clock_IterateSinglePixelByIndex@idx C5 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_DefaultInterruptHandler 2002 0 CODE 0 text73 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@rotCounts 1BE 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_currentBACKGROUNDrgbArray C8 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+_RotaryEncoder_ReadShaftISR 3A00 0 CODE 0 text82 dist/default/production\MaverickClock.X.production.o
+___wmul@multiplicand 2B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?_WS2812b_Initialize 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR3_Initialize 47EE 0 CODE 0 text4 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR3_StartTimer 454E 0 CODE 0 text50 dist/default/production\MaverickClock.X.production.o
+_State_SetFunctionLookupTable 4868 0 CODE 0 text44 dist/default/production\MaverickClock.X.production.o
+_ANSELA 18C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_ANSELC 18E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+DATAEE_WriteByte@GIEBitValue 2C 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___awdiv@dividend 44 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@green 42 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@strip 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_INTERRUPT_InterruptManager 4C 0 CODE 0 intentry dist/default/production\MaverickClock.X.production.o
+__end_ofSTATE_ChangeColorMode@dColorTime 515C 0 STRCODE 0 stringtext15 dist/default/production\MaverickClock.X.production.o
+_Clock_ForceRender$2392 A0 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+_CRCtbl 3000 0 STRCODE 0 stringtext1 dist/default/production\MaverickClock.X.production.o
+IOCCF3_SetInterruptHandler@InterruptHandler 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_upDigitEncodings 5088 0 STRCODE 0 stringtext14 dist/default/production\MaverickClock.X.production.o
+__end_of_Time_RenderInputTime 4000 0 CODE 0 text20 dist/default/production\MaverickClock.X.production.o
+__end_of_colorRGBArrays 5060 0 STRCODE 0 stringtext2 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPatternwithDelays F6 0 CODE 0 text13 dist/default/production\MaverickClock.X.production.o
+__end_of___lmul 2062 0 CODE 0 text18 dist/default/production\MaverickClock.X.production.o
+__end_of___wmul 4934 0 CODE 0 text56 dist/default/production\MaverickClock.X.production.o
+__end_of_Time_EnableTimeModule 1006 0 CODE 0 text40 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_CrossingRainbowPatternwithDelays 8BA 0 CODE 0 text13 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetStripConstantColor@blue 53 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+APP_Initialize@maxRetries A6 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+Clock_SetBackgroundRGBArray@blue 30 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+CRC16_Calculate16bitCRC@data 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+CRC16_Calculate16bitCRC@seed 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+CRC16_Calculate16bitCRC@size 2B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+_TMR5_SetInterruptHandler 45D4 0 CODE 0 text39 dist/default/production\MaverickClock.X.production.o
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+__LnvBANK2 0 0 ABS 0 nvBANK2 -
+_RotaryEncoder_ReadButtonISR EC4 0 CODE 0 text78 dist/default/production\MaverickClock.X.production.o
+___awdiv@divisor 42 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___lwmod@divisor 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of___awdiv 3666 0 CODE 0 text25 dist/default/production\MaverickClock.X.production.o
+__end_of___awmod 4E42 0 CODE 0 text24 dist/default/production\MaverickClock.X.production.o
+__end_of___lldiv 370C 0 CODE 0 text23 dist/default/production\MaverickClock.X.production.o
+__end_of___lwdiv 4D38 0 CODE 0 text22 dist/default/production\MaverickClock.X.production.o
+__end_of___lwmod 4C04 0 CODE 0 text21 dist/default/production\MaverickClock.X.production.o
+WS2812b_CopyPixelBufferArrayFromSource@startPixel 47 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_DATAEE_ReadByte 4760 0 CODE 0 text52 dist/default/production\MaverickClock.X.production.o
+_T5GCONbits 41B 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_INLVLA 38C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_INLVLC 38E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+Clock_CrossingRainbowPatternwithDelays@thisIndex C3 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+TMR5_SetInterruptHandler@InterruptHandler 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_RotaryEncoder_Init 4A26 0 CODE 0 text45 dist/default/production\MaverickClock.X.production.o
+_Time_EnableTimeModule 1000 0 CODE 0 text40 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF5_DefaultInterruptHandler 3404 0 CODE 0 text77 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF3_ISR 469E 0 CODE 0 text84 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF4_ISR 46B8 0 CODE 0 text80 dist/default/production\MaverickClock.X.production.o
+___stackhi 0 0 ABS 0 - dist/default/production\startup.o
+___stacklo 0 0 ABS 0 - dist/default/production\startup.o
+__end_of_IOCCF5_ISR 46D2 0 CODE 0 text76 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPatternwithDelays$2396 52 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPatternwithDelays$2397 53 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPatternwithDelays$2398 54 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Time_InitializeTimeModule 456C 0 CODE 0 text38 dist/default/production\MaverickClock.X.production.o
+_STATE_PatternMode 387C 0 CODE 0 text11 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@backgroundSelection 1B9 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+STATE_PatternMode@rotCounts A4 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetSinglePixelColor@green 47 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___lwdiv@quotient 2F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_WriteTimeDigitValuesAndRenderScreen 2484 0 CODE 0 text26 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetSinglePixelColor@strip 42 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_CopyPixelBufferArrayFromSource@dest 49 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+memcpy@tmp 36 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_TMR3_Initialize 47C8 0 CODE 0 text4 dist/default/production\MaverickClock.X.production.o
+_TMR3_StartTimer 4548 0 CODE 0 text50 dist/default/production\MaverickClock.X.production.o
+___lwmod@dividend 3D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___lldiv@counter 36 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+CRC16_Calculate16bitCRC@crc 3D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_PIN_MANAGER_Initialize 4D38 0 CODE 0 text7 dist/default/production\MaverickClock.X.production.o
+__Lstringtext10 0 0 ABS 0 stringtext10 -
+__Lstringtext11 0 0 ABS 0 stringtext11 -
+__Lstringtext12 0 0 ABS 0 stringtext12 -
+__Lstringtext13 0 0 ABS 0 stringtext13 -
+__Lstringtext14 0 0 ABS 0 stringtext14 -
+__Lstringtext15 0 0 ABS 0 stringtext15 -
+__end_of_Time_RenderIfMinutesHaveChanged 2A0E 0 CODE 0 text10 dist/default/production\MaverickClock.X.production.o
+WS2812b_CopyPixelBufferArrayFromSource@src 4B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+i1_TMR3_ReadTimer 496C 0 CODE 0 text79 dist/default/production\MaverickClock.X.production.o
+start_initialization 56 0 CODE 0 cinit dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@digitSelection 1B6 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_ODCONA 28C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_ODCONC 28E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+Time_RenderInputTime@currentTimeInMinutes A8 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+_OSCFRQ 91F 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+___lldiv@dividend 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_WS2812b_SetSinglePixelColor 37C2 0 CODE 0 text35 dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@backgroundGreen 3A 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@minutesAtLastChange CE 0 BANK1 1 dataBANK1 dist/default/production\MaverickClock.X.production.o
+Clock_CrossingRainbowPattern@rainbowRowIdx 5F 0 BANK0 1 bssBANK0 dist/default/production\MaverickClock.X.production.o
+_DATAEE_WriteByte 4A26 0 CODE 0 text30 dist/default/production\MaverickClock.X.production.o
+__end_of_memcpy 4B52 0 CODE 0 text58 dist/default/production\MaverickClock.X.production.o
+__end_of_SYSTEM_Initialize 4868 0 CODE 0 text1 dist/default/production\MaverickClock.X.production.o
+_T3GCONbits 414 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+Time_RenderInputTime@timeInSeconds A0 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+_RotaryEncoder_Init 49E6 0 CODE 0 text45 dist/default/production\MaverickClock.X.production.o
+clear_ram0 4654 0 CODE 0 clrtext dist/default/production\MaverickClock.X.production.o
+__pcstackBANK0 21 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+__pcstackBANK3 1A0 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_T1GCON 1C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_T3GCON 414 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_T5GCON 41B 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_DATAEE_ReadByte 4742 0 CODE 0 text52 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@rgbArray 4A 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+CRC16_Calculate16bitCRC@i 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@digitRed 36 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_SetInterruptHandler 45D4 0 CODE 0 text43 dist/default/production\MaverickClock.X.production.o
+__end_of_upDigitEncodings 50B0 0 STRCODE 0 stringtext14 dist/default/production\MaverickClock.X.production.o
+_WDTCON 97 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@currentTimeInMinutes AF 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+___int_sp 0 0 STACK 2 stack dist/default/production\startup.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+RotaryEncoder_ReadButtonISR@positiveWidth_cts 25 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Hcinit F6 0 CODE 0 cinit -
+_WS2812b_SetPixelBlockConstantColor 1006 0 CODE 0 text55 dist/default/production\MaverickClock.X.production.o
+__Hidloc 10008 0 IDLOC 5 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+___lwdiv@counter 2E 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_WS2812b_Initialize 4B00 0 CODE 0 text60 dist/default/production\MaverickClock.X.production.o
+_NVMADRH 892 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_NVMADRL 891 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_NVMCON2 896 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_NVMDATH 894 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_NVMDATL 893 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 ABS 0 bank13 -
+__Hbank14 0 0 ABS 0 bank14 -
+__Hbank15 0 0 ABS 0 bank15 -
+__Hbank16 0 0 ABS 0 bank16 -
+__Hbank17 0 0 ABS 0 bank17 -
+__Hbank18 0 0 ABS 0 bank18 -
+__Hbank19 0 0 ABS 0 bank19 -
+__Hbank20 0 0 ABS 0 bank20 -
+__Hbank21 0 0 ABS 0 bank21 -
+__Hbank22 0 0 ABS 0 bank22 -
+__Hbank23 0 0 ABS 0 bank23 -
+__Hbank24 0 0 ABS 0 bank24 -
+__Hbank25 0 0 ABS 0 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+Clock_InitializeClockLEDs@numElements 34 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__end_of_IOCCF5_SetInterruptHandler 45C2 0 CODE 0 text46 dist/default/production\MaverickClock.X.production.o
+_RotaryEncoder_ReadShaftISR$1369 72 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10016 0 CONFIG 4 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 56 0 CODE 0 cinit -
+_T1GCONbits 1C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 466C 0 CODE 0 inittext dist/default/production\MaverickClock.X.production.o
+__Linittext 0 0 ABS 0 inittext -
+_PORTCbits E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+?_CRC16_Calculate16bitCRC 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_RotaryEncoder_Enable 3486 0 CODE 0 text49 dist/default/production\MaverickClock.X.production.o
+memcpy@d1 2F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+memcpy@s1 31 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 52 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 4C 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+memcpy@d 37 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+memcpy@n 33 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+memcpy@s 39 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__pstringtext1 3000 0 STRCODE 0 stringtext1 dist/default/production\MaverickClock.X.production.o
+__pstringtext2 5000 0 STRCODE 0 stringtext2 dist/default/production\MaverickClock.X.production.o
+__pstringtext3 50B0 0 STRCODE 0 stringtext3 dist/default/production\MaverickClock.X.production.o
+__pstringtext4 50D4 0 STRCODE 0 stringtext4 dist/default/production\MaverickClock.X.production.o
+__pstringtext5 50F0 0 STRCODE 0 stringtext5 dist/default/production\MaverickClock.X.production.o
+__pstringtext6 510A 0 STRCODE 0 stringtext6 dist/default/production\MaverickClock.X.production.o
+__pstringtext7 5124 0 STRCODE 0 stringtext7 dist/default/production\MaverickClock.X.production.o
+__pstringtext8 513C 0 STRCODE 0 stringtext8 dist/default/production\MaverickClock.X.production.o
+__pstringtext9 515C 0 STRCODE 0 stringtext9 dist/default/production\MaverickClock.X.production.o
+__end_of_digit2StartPixel 5168 0 STRCODE 0 stringtext11 dist/default/production\MaverickClock.X.production.o
+__pnvBANK1 D3 0 BANK1 1 nvBANK1 dist/default/production\MaverickClock.X.production.o
+__pnvBANK2 14B 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+Clock_ForceRender@t 53 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+IOCCF5_SetInterruptHandler@InterruptHandler 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__pstringtext10 5160 0 STRCODE 0 stringtext10 dist/default/production\MaverickClock.X.production.o
+__pstringtext11 5164 0 STRCODE 0 stringtext11 dist/default/production\MaverickClock.X.production.o
+__pstringtext12 5168 0 STRCODE 0 stringtext12 dist/default/production\MaverickClock.X.production.o
+__pstringtext13 5060 0 STRCODE 0 stringtext13 dist/default/production\MaverickClock.X.production.o
+__pstringtext14 5088 0 STRCODE 0 stringtext14 dist/default/production\MaverickClock.X.production.o
+__pstringtext15 5154 0 STRCODE 0 stringtext15 dist/default/production\MaverickClock.X.production.o
+___lmul 2002 0 CODE 0 text18 dist/default/production\MaverickClock.X.production.o
+___wmul 48FC 0 CODE 0 text56 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetSinglePixelColor@red 46 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK3 0 0 ABS 0 cstackBANK3 -
+int$flags 7E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+___timeout 104 0 ABS 0 - dist/default/production\startup.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+WS2812b_SetSinglePixelColor@thisPixel 4B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_IOCCF4_SetInterruptHandler 459E 0 CODE 0 text47 dist/default/production\MaverickClock.X.production.o
+__S0 28B6 0 ABS 0 - -
+__S1 1DD 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_app 120 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+_rot 61 0 BANK0 1 bssBANK0 dist/default/production\MaverickClock.X.production.o
+__end_ofi1_TMR3_ReadTimer 49A6 0 CODE 0 text79 dist/default/production\MaverickClock.X.production.o
+__end_of_downDigitEncodings 5088 0 STRCODE 0 stringtext13 dist/default/production\MaverickClock.X.production.o
+_isRotaryEncoderEnabled 7D 0 COMMON 1 bssCOMMON dist/default/production\MaverickClock.X.production.o
+_IOCCF5_DefaultInterruptHandler 3402 0 CODE 0 text77 dist/default/production\MaverickClock.X.production.o
+_WS2812b_Initialize 4AAE 0 CODE 0 text60 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@red 41 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_WriteDigitPixelValuesToLocalPxlBuffers@encodingSource 3D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_State_SetFunctionLookupTable 4894 0 CODE 0 text44 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_Popcorn_Pattern 3000 0 CODE 0 text12 dist/default/production\MaverickClock.X.production.o
+_WS2812b_SetStripConstantColor 4B52 0 CODE 0 text54 dist/default/production\MaverickClock.X.production.o
+__end_of_digit4StartPixel 5160 0 STRCODE 0 stringtext9 dist/default/production\MaverickClock.X.production.o
+__end_of_DATAEE_WriteByte 4A6A 0 CODE 0 text30 dist/default/production\MaverickClock.X.production.o
+WS2812B_Render@i 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812B_Render@j 31 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_WriteDigitPixelValuesToLocalPxlBuffers 35C2 0 CODE 0 text57 dist/default/production\MaverickClock.X.production.o
+APP_TASKS@wasSwitchPressedInTimeMode C7 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+_TMR1_CallBack 45F8 0 CODE 0 text72 dist/default/production\MaverickClock.X.production.o
+_SYSTEM_Initialize 483E 0 CODE 0 text1 dist/default/production\MaverickClock.X.production.o
+WS2812b_Initialize@array 30 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_SetBackgroundRGBArray 4816 0 CODE 0 text62 dist/default/production\MaverickClock.X.production.o
+Clock_WriteDigitPixelValuesToLocalPxlBuffers@thisDigitStartAddress 43 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__HnvBANK2 0 0 ABS 0 nvBANK2 -
+__Lintentry 8 0 CODE 0 intentry -
+___lldiv@divisor 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_IterateSinglePixelByIndex 4ED2 0 CODE 0 text15 dist/default/production\MaverickClock.X.production.o
+_TMR5_DefaultInterruptHandler 4 0 CODE 0 text68 dist/default/production\MaverickClock.X.production.o
+_Clock_Popcorn_Pattern 2A0E 0 CODE 0 text12 dist/default/production\MaverickClock.X.production.o
+reset_vec 0 0 CODE 0 reset_vec dist/default/production\startup.o
+_downEncodedDigitsPixelValues 23E8 0 ABS 1 - dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@returnVal 3E 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_WriteDigitPixelValuesToLocalPxlBuffers@digitCounter 41 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_WS2812B_Render 2062 0 CODE 0 text33 dist/default/production\MaverickClock.X.production.o
+_rot@app$F1486 1C3 0 BANK3 1 dataBANK3 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR5_Initialize 496C 0 CODE 0 text3 dist/default/production\MaverickClock.X.production.o
+__end_of_RotaryEncoder_HasButtonPressOccurred 47C8 0 CODE 0 text28 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR5_StartTimer 455A 0 CODE 0 text41 dist/default/production\MaverickClock.X.production.o
+__pdataBANK0 66 0 BANK0 1 dataBANK0 dist/default/production\MaverickClock.X.production.o
+__pdataBANK1 CE 0 BANK1 1 dataBANK1 dist/default/production\MaverickClock.X.production.o
+__pdataBANK3 1C3 0 BANK3 1 dataBANK3 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR5_WriteTimer 4742 0 CODE 0 text66 dist/default/production\MaverickClock.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+_downDigitEncodings 5060 0 STRCODE 0 stringtext13 dist/default/production\MaverickClock.X.production.o
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__Lstringtext5 0 0 ABS 0 stringtext5 -
+__Lstringtext6 0 0 ABS 0 stringtext6 -
+__Lstringtext7 0 0 ABS 0 stringtext7 -
+__Lstringtext8 0 0 ABS 0 stringtext8 -
+__Lstringtext9 0 0 ABS 0 stringtext9 -
+_RotaryEncoder_GetShaftCounts 4A6A 0 CODE 0 text29 dist/default/production\MaverickClock.X.production.o
+WS2812B_Render@strip 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@dColorTime 5154 0 STRCODE 0 stringtext15 dist/default/production\MaverickClock.X.production.o
+_WS2812b_Initialize$1153 2F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___awmod@counter 40 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_Popcorn_Pattern_Hold EC4 0 CODE 0 text16 dist/default/production\MaverickClock.X.production.o
+_PIE0bits 90 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PIE1bits 91 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PIE4bits 94 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR5_CallBack 460E 0 CODE 0 text67 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF4_DefaultInterruptHandler 4548 0 CODE 0 text83 dist/default/production\MaverickClock.X.production.o
+_RotaryEncoder_GetSwitchState 4760 0 CODE 0 text36 dist/default/production\MaverickClock.X.production.o
+_memcpy 4B00 0 CODE 0 text58 dist/default/production\MaverickClock.X.production.o
+_currentTimeInSeconds BB 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+_rainbowRGBValues 50B0 0 STRCODE 0 stringtext3 dist/default/production\MaverickClock.X.production.o
+_TMR1_ISR 46D2 0 CODE 0 text70 dist/default/production\MaverickClock.X.production.o
+__ptext10 26CC 0 CODE 0 text10 dist/default/production\MaverickClock.X.production.o
+__ptext11 387C 0 CODE 0 text11 dist/default/production\MaverickClock.X.production.o
+__ptext12 2A0E 0 CODE 0 text12 dist/default/production\MaverickClock.X.production.o
+__ptext13 F6 0 CODE 0 text13 dist/default/production\MaverickClock.X.production.o
+__ptext14 187C 0 CODE 0 text14 dist/default/production\MaverickClock.X.production.o
+__ptext15 4E42 0 CODE 0 text15 dist/default/production\MaverickClock.X.production.o
+__ptext16 8BA 0 CODE 0 text16 dist/default/production\MaverickClock.X.production.o
+__ptext17 4ED2 0 CODE 0 text17 dist/default/production\MaverickClock.X.production.o
+__ptext18 2002 0 CODE 0 text18 dist/default/production\MaverickClock.X.production.o
+__ptext19 1108 0 CODE 0 text19 dist/default/production\MaverickClock.X.production.o
+__ptext20 3E28 0 CODE 0 text20 dist/default/production\MaverickClock.X.production.o
+__ptext21 4BAA 0 CODE 0 text21 dist/default/production\MaverickClock.X.production.o
+__ptext22 4CCE 0 CODE 0 text22 dist/default/production\MaverickClock.X.production.o
+__ptext23 3666 0 CODE 0 text23 dist/default/production\MaverickClock.X.production.o
+__ptext24 4DB6 0 CODE 0 text24 dist/default/production\MaverickClock.X.production.o
+__ptext25 35C2 0 CODE 0 text25 dist/default/production\MaverickClock.X.production.o
+__ptext26 2484 0 CODE 0 text26 dist/default/production\MaverickClock.X.production.o
+__ptext27 4780 0 CODE 0 text27 dist/default/production\MaverickClock.X.production.o
+__ptext28 47A2 0 CODE 0 text28 dist/default/production\MaverickClock.X.production.o
+__ptext29 4A6A 0 CODE 0 text29 dist/default/production\MaverickClock.X.production.o
+__ptext30 4A26 0 CODE 0 text30 dist/default/production\MaverickClock.X.production.o
+__ptext31 2242 0 CODE 0 text31 dist/default/production\MaverickClock.X.production.o
+__ptext32 37C2 0 CODE 0 text32 dist/default/production\MaverickClock.X.production.o
+__ptext33 2062 0 CODE 0 text33 dist/default/production\MaverickClock.X.production.o
+__ptext34 3B0E 0 CODE 0 text34 dist/default/production\MaverickClock.X.production.o
+__ptext35 370C 0 CODE 0 text35 dist/default/production\MaverickClock.X.production.o
+__ptext36 4760 0 CODE 0 text36 dist/default/production\MaverickClock.X.production.o
+__ptext37 3C8C 0 CODE 0 text37 dist/default/production\MaverickClock.X.production.o
+__ptext38 456C 0 CODE 0 text38 dist/default/production\MaverickClock.X.production.o
+__ptext39 45D4 0 CODE 0 text39 dist/default/production\MaverickClock.X.production.o
+__ptext40 1000 0 CODE 0 text40 dist/default/production\MaverickClock.X.production.o
+__ptext41 4554 0 CODE 0 text41 dist/default/production\MaverickClock.X.production.o
+__ptext42 454E 0 CODE 0 text42 dist/default/production\MaverickClock.X.production.o
+__ptext43 45C2 0 CODE 0 text43 dist/default/production\MaverickClock.X.production.o
+__ptext44 4868 0 CODE 0 text44 dist/default/production\MaverickClock.X.production.o
+__ptext45 49E6 0 CODE 0 text45 dist/default/production\MaverickClock.X.production.o
+__ptext46 45B0 0 CODE 0 text46 dist/default/production\MaverickClock.X.production.o
+__ptext47 459E 0 CODE 0 text47 dist/default/production\MaverickClock.X.production.o
+__ptext48 458C 0 CODE 0 text48 dist/default/production\MaverickClock.X.production.o
+__ptext49 3486 0 CODE 0 text49 dist/default/production\MaverickClock.X.production.o
+__ptext50 4548 0 CODE 0 text50 dist/default/production\MaverickClock.X.production.o
+__ptext51 49A6 0 CODE 0 text51 dist/default/production\MaverickClock.X.production.o
+__ptext52 4742 0 CODE 0 text52 dist/default/production\MaverickClock.X.production.o
+__ptext53 4C04 0 CODE 0 text53 dist/default/production\MaverickClock.X.production.o
+__ptext54 4B52 0 CODE 0 text54 dist/default/production\MaverickClock.X.production.o
+__ptext55 1006 0 CODE 0 text55 dist/default/production\MaverickClock.X.production.o
+__ptext56 48FC 0 CODE 0 text56 dist/default/production\MaverickClock.X.production.o
+__ptext57 3522 0 CODE 0 text57 dist/default/production\MaverickClock.X.production.o
+__ptext58 4B00 0 CODE 0 text58 dist/default/production\MaverickClock.X.production.o
+__ptext59 4C68 0 CODE 0 text59 dist/default/production\MaverickClock.X.production.o
+__ptext60 4AAE 0 CODE 0 text60 dist/default/production\MaverickClock.X.production.o
+__ptext61 4816 0 CODE 0 text61 dist/default/production\MaverickClock.X.production.o
+__ptext62 47EE 0 CODE 0 text62 dist/default/production\MaverickClock.X.production.o
+__ptext63 4F66 0 CODE 0 text63 dist/default/production\MaverickClock.X.production.o
+__ptext65 46EC 0 CODE 0 text65 dist/default/production\MaverickClock.X.production.o
+__ptext66 4724 0 CODE 0 text66 dist/default/production\MaverickClock.X.production.o
+__ptext67 460E 0 CODE 0 text67 dist/default/production\MaverickClock.X.production.o
+__ptext68 4 0 CODE 0 text68 dist/default/production\MaverickClock.X.production.o
+__ptext69 3404 0 CODE 0 text69 dist/default/production\MaverickClock.X.production.o
+__ptext70 46D2 0 CODE 0 text70 dist/default/production\MaverickClock.X.production.o
+__ptext71 4706 0 CODE 0 text71 dist/default/production\MaverickClock.X.production.o
+__ptext72 45F8 0 CODE 0 text72 dist/default/production\MaverickClock.X.production.o
+__ptext73 2000 0 CODE 0 text73 dist/default/production\MaverickClock.X.production.o
+__ptext74 4624 0 CODE 0 text74 dist/default/production\MaverickClock.X.production.o
+__ptext75 FDC 0 CODE 0 text75 dist/default/production\MaverickClock.X.production.o
+__ptext76 46B8 0 CODE 0 text76 dist/default/production\MaverickClock.X.production.o
+__ptext77 3402 0 CODE 0 text77 dist/default/production\MaverickClock.X.production.o
+__ptext78 EC4 0 CODE 0 text78 dist/default/production\MaverickClock.X.production.o
+__ptext79 496C 0 CODE 0 text79 dist/default/production\MaverickClock.X.production.o
+__ptext80 469E 0 CODE 0 text80 dist/default/production\MaverickClock.X.production.o
+__ptext81 3400 0 CODE 0 text81 dist/default/production\MaverickClock.X.production.o
+__ptext82 3A00 0 CODE 0 text82 dist/default/production\MaverickClock.X.production.o
+__ptext83 4546 0 CODE 0 text83 dist/default/production\MaverickClock.X.production.o
+__ptext84 4684 0 CODE 0 text84 dist/default/production\MaverickClock.X.production.o
+_IOCCFbits 399 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR5_ISR 46EC 0 CODE 0 text65 dist/default/production\MaverickClock.X.production.o
+_IOCCNbits 398 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_IOCCPbits 397 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__end_of_PIN_MANAGER_Initialize 4DB6 0 CODE 0 text7 dist/default/production\MaverickClock.X.production.o
+___awdiv 35C2 0 CODE 0 text25 dist/default/production\MaverickClock.X.production.o
+___awmod 4DB6 0 CODE 0 text24 dist/default/production\MaverickClock.X.production.o
+_upEncodedDigitsPixelValues 258C 0 ABS 1 - dist/default/production\MaverickClock.X.production.o
+WS2812b_SetStripConstantColor@green 52 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___lldiv 3666 0 CODE 0 text23 dist/default/production\MaverickClock.X.production.o
+___lwdiv 4CCE 0 CODE 0 text22 dist/default/production\MaverickClock.X.production.o
+___lwmod 4BAA 0 CODE 0 text21 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetStripConstantColor@strip 4F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 ABS 0 bank13 -
+__Lbank14 0 0 ABS 0 bank14 -
+__Lbank15 0 0 ABS 0 bank15 -
+__Lbank16 0 0 ABS 0 bank16 -
+__Lbank17 0 0 ABS 0 bank17 -
+__Lbank18 0 0 ABS 0 bank18 -
+__Lbank19 0 0 ABS 0 bank19 -
+__Lbank20 0 0 ABS 0 bank20 -
+__Lbank21 0 0 ABS 0 bank21 -
+__Lbank22 0 0 ABS 0 bank22 -
+__Lbank23 0 0 ABS 0 bank23 -
+__Lbank24 0 0 ABS 0 bank24 -
+__Lbank25 0 0 ABS 0 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext 463C 0 CODE 0 maintext dist/default/production\MaverickClock.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+___lmul@multiplier 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Time_IncrementSecondsISR 3404 0 CODE 0 text69 dist/default/production\MaverickClock.X.production.o
+?_rand 35 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+TMR3_ReadTimer@readValHigh 32 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+RotaryEncoder_GetSwitchState@currentState 2A 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_WS2812b_SetPixelBlockConstantColor 1108 0 CODE 0 text55 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_ISR 46EC 0 CODE 0 text70 dist/default/production\MaverickClock.X.production.o
+___powerdown 103 0 ABS 0 - dist/default/production\startup.o
+__Hinittext 0 0 ABS 0 inittext -
+__end_of_TMR5_ISR 4706 0 CODE 0 text65 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@finalPixelIndex 46 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___wmul@multiplier 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_LATCbits 10E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@blue 43 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Time_RenderInputTime 3E28 0 CODE 0 text20 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@arrayRowIdx 1C2 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_InitializeClockLEDs 4CCE 0 CODE 0 text59 dist/default/production\MaverickClock.X.production.o
+_renderBuffer 2730 0 ABS 1 - dist/default/production\MaverickClock.X.production.o
+__end_of_TMR5_SetInterruptHandler 45E6 0 CODE 0 text39 dist/default/production\MaverickClock.X.production.o
+___lwdiv@divisor 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+STATE_PatternMode@patternIndex BF 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@currentTime 1A0 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+i1TMR3_ReadTimer@readValLow 7A 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+Clock_SetDigitRGBArray@green 2F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_CrossingRainbowPattern@thisIndex 7B 0 COMMON 1 bssCOMMON dist/default/production\MaverickClock.X.production.o
+Clock_SetBackgroundRGBArray@red 32 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Time_RenderInputTime@minutes AB 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetSinglePixelColor@blue 48 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_Clock_CrossingRainbowPattern 187C 0 CODE 0 text14 dist/default/production\MaverickClock.X.production.o
+_OSCCON1 919 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_OSCCON3 91B 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_OSCTUNE 91E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__end_of_WS2812B_Render 2242 0 CODE 0 text33 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_FixDigit4LastThreePixels 3C8C 0 CODE 0 text34 dist/default/production\MaverickClock.X.production.o
+_TMR5_Initialize 4934 0 CODE 0 text3 dist/default/production\MaverickClock.X.production.o
+_TMR5_StartTimer 4554 0 CODE 0 text41 dist/default/production\MaverickClock.X.production.o
+_TMR5_WriteTimer 4724 0 CODE 0 text66 dist/default/production\MaverickClock.X.production.o
+_Time_RenderIfMinutesHaveChanged 26CC 0 CODE 0 text10 dist/default/production\MaverickClock.X.production.o
+__pbssBIGRAM 23E8 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_CRC16_Calculate16bitCRC 4F66 0 CODE 0 text63 dist/default/production\MaverickClock.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 7B 0 COMMON 1 bssCOMMON dist/default/production\MaverickClock.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK3 0 0 ABS 0 cstackBANK3 -
+__end_of_CRC16_Calculate16bitCRC 5000 0 CODE 0 text63 dist/default/production\MaverickClock.X.production.o
+_PIR0bits 10 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PIR1bits 11 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR5_InterruptHandler 14B 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+_PIR3bits 13 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_PIR4bits 14 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__Lend_init 52 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+RotaryEncoder_ReadButtonISR@currentTimestamp 27 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_SetBackgroundRGBArray@green 2F 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@backgroundRed 39 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+end_of_initialization EE 0 CODE 0 cinit dist/default/production\MaverickClock.X.production.o
+_T5CONbits 41A 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_STATE_PatternMode$916 A0 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+WS2812b_CopyPixelBufferArrayFromSource@strip 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@i 4D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Hintentry 4C 0 CODE 0 intentry -
+__end_of_Clock_WriteTimeDigitValuesAndRenderScreen 26CC 0 CODE 0 text26 dist/default/production\MaverickClock.X.production.o
+_Clock_SetDigitRGBArray 4816 0 CODE 0 text61 dist/default/production\MaverickClock.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 49 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___awdiv 42 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___awmod 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___lwdiv@dividend 2B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___lldiv 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___lwdiv 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?___lwmod 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@crc 1BC 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+TMR1_SetInterruptHandler@InterruptHandler 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_CopyPixelBufferArrayFromSource@numPixelsToCopy 41 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+_Time_GetCurrentTimeInSeconds 4780 0 CODE 0 text27 dist/default/production\MaverickClock.X.production.o
+APP_Initialize@eepromReadbackData A8 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+___awmod@dividend 3D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_CrossingRainbowPatternwithDelays@rainbowRowIdx 5D 0 BANK0 1 bssBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_ForceRender 2484 0 CODE 0 text31 dist/default/production\MaverickClock.X.production.o
+__ptext1 483E 0 CODE 0 text1 dist/default/production\MaverickClock.X.production.o
+__ptext2 455A 0 CODE 0 text2 dist/default/production\MaverickClock.X.production.o
+__ptext3 4934 0 CODE 0 text3 dist/default/production\MaverickClock.X.production.o
+__ptext4 47C8 0 CODE 0 text4 dist/default/production\MaverickClock.X.production.o
+__ptext5 4894 0 CODE 0 text5 dist/default/production\MaverickClock.X.production.o
+__ptext6 457C 0 CODE 0 text6 dist/default/production\MaverickClock.X.production.o
+__ptext7 4D38 0 CODE 0 text7 dist/default/production\MaverickClock.X.production.o
+__ptext8 45E6 0 CODE 0 text8 dist/default/production\MaverickClock.X.production.o
+__ptext9 393A 0 CODE 0 text9 dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@digitGreen 37 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_WS2812b_SetSinglePixelColor 370C 0 CODE 0 text35 dist/default/production\MaverickClock.X.production.o
+STATE_ChangeColorMode@maxRetries 1B4 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+__end_of_rainbowRGBValues 50D4 0 STRCODE 0 stringtext3 dist/default/production\MaverickClock.X.production.o
+DATAEE_WriteByte@bAdd 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@startPixelAddress 48 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF3_SetInterruptHandler 459E 0 CODE 0 text48 dist/default/production\MaverickClock.X.production.o
+_STATE_ChangeColorMode$989 1AC 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_STATE_ChangeColorMode$990 1AE 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_STATE_ChangeColorMode$993 1B0 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_STATE_ChangeColorMode$994 1B2 0 BANK3 1 cstackBANK3 dist/default/production\MaverickClock.X.production.o
+_patterns 12A 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+RotaryEncoder_Init@rotEncPtr 2C 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_APP_Initialize 3C8C 0 CODE 0 text37 dist/default/production\MaverickClock.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+_IOCCF5_SetInterruptHandler 45B0 0 CODE 0 text46 dist/default/production\MaverickClock.X.production.o
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_RotaryEncoder_ReadButtonISR FDC 0 CODE 0 text78 dist/default/production\MaverickClock.X.production.o
+TMR1_WriteTimer@timerVal 70 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_Initialize 48C8 0 CODE 0 text5 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_StartTimer 4554 0 CODE 0 text42 dist/default/production\MaverickClock.X.production.o
+__end_of_RotaryEncoder_ReadShaftISR 3B0E 0 CODE 0 text82 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_WriteTimer 4724 0 CODE 0 text71 dist/default/production\MaverickClock.X.production.o
+?i1_TMR3_ReadTimer 70 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+__end_of_TMR1_CallBack 460E 0 CODE 0 text72 dist/default/production\MaverickClock.X.production.o
+Clock_Popcorn_Pattern_Hold@numRenders 145 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+__Hstringtext5 0 0 ABS 0 stringtext5 -
+__Hstringtext6 0 0 ABS 0 stringtext6 -
+__Hstringtext7 0 0 ABS 0 stringtext7 -
+__Hstringtext8 0 0 ABS 0 stringtext8 -
+__Hstringtext9 0 0 ABS 0 stringtext9 -
+TMR3_ReadTimer@readVal 30 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_STATE_ChangeColorMode 187C 0 CODE 0 text19 dist/default/production\MaverickClock.X.production.o
+_IOCCF5_InterruptHandler 151 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+_IOCCF4_DefaultInterruptHandler 4546 0 CODE 0 text83 dist/default/production\MaverickClock.X.production.o
+WS2812b_CopyPixelBufferArrayFromSource@pixelSource 3D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_SLRCONA 30C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_SLRCONC 30E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+___heap_hi 0 0 ABS 0 - dist/default/production\startup.o
+___heap_lo 0 0 ABS 0 - dist/default/production\startup.o
+Time_RenderIfMinutesHaveChanged@t B5 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@F6453 138 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+Clock_WriteDigitPixelValuesToLocalPxlBuffers@pixelBuffer 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of__initialization EE 0 CODE 0 cinit dist/default/production\MaverickClock.X.production.o
+DATAEE_ReadByte@bAdd 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+___awmod@divisor 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+IOCCF4_SetInterruptHandler@InterruptHandler 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_WriteDigitPixelValuesToLocalPxlBuffers@encodingCounter 45 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@hours AD 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+_Clock_PrerenderPixelAndBackgroundValues 4C04 0 CODE 0 text53 dist/default/production\MaverickClock.X.production.o
+Clock_WriteTimeDigitValuesAndRenderScreen@lastDigit1 66 0 BANK0 1 dataBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_WriteTimeDigitValuesAndRenderScreen@lastDigit2 D2 0 BANK1 1 dataBANK1 dist/default/production\MaverickClock.X.production.o
+Clock_WriteTimeDigitValuesAndRenderScreen@lastDigit3 D1 0 BANK1 1 dataBANK1 dist/default/production\MaverickClock.X.production.o
+Clock_WriteTimeDigitValuesAndRenderScreen@lastDigit4 D0 0 BANK1 1 dataBANK1 dist/default/production\MaverickClock.X.production.o
+_NVMCON1bits 895 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+__pidataBANK0 6 0 CODE 0 idataBANK0 dist/default/production\MaverickClock.X.production.o
+__pidataBANK1 4562 0 CODE 0 idataBANK1 dist/default/production\MaverickClock.X.production.o
+__pidataBANK3 48C8 0 CODE 0 idataBANK3 dist/default/production\MaverickClock.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_timer1ReloadVal D5 0 BANK1 1 nvBANK1 dist/default/production\MaverickClock.X.production.o
+___lmul@product 31 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_WS2812b_SetStripConstantColor 4BAA 0 CODE 0 text54 dist/default/production\MaverickClock.X.production.o
+__end_of_Timer1Interrupt 463C 0 CODE 0 text74 dist/default/production\MaverickClock.X.production.o
+_TMR1_DefaultInterruptHandler 2000 0 CODE 0 text73 dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@digitBlue 38 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR5_DefaultInterruptHandler 6 0 CODE 0 text68 dist/default/production\MaverickClock.X.production.o
+_Clock_WriteDigitPixelValuesToLocalPxlBuffers 3522 0 CODE 0 text57 dist/default/production\MaverickClock.X.production.o
+_STATE_ChangeColorMode 1108 0 CODE 0 text19 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR5_CallBack 4624 0 CODE 0 text67 dist/default/production\MaverickClock.X.production.o
+___lmul@multiplicand 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_TMR3_ReadTimer 49A6 0 CODE 0 text51 dist/default/production\MaverickClock.X.production.o
+___lldiv@quotient 32 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+Clock_WriteTimeDigitValuesAndRenderScreen@digits 5B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\MaverickClock.X.production.o
+Time_RenderInputTime@t AC 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+DATAEE_WriteByte@bData 2B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_Initialize@wasSetupSuccessful 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+WS2812b_SetPixelBlockConstantColor@pixelStartOffset 3D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_T3CONbits 413 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_IOCCF4_InterruptHandler 153 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+__Hend_init 56 0 CODE 0 end_init -
+_timer3ReloadVal 14D 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+__end_of_RotaryEncoder_GetShaftCounts 4AAE 0 CODE 0 text29 dist/default/production\MaverickClock.X.production.o
+__end_of_Time_InitializeTimeModule 457C 0 CODE 0 text38 dist/default/production\MaverickClock.X.production.o
+__end_of_main 4654 0 CODE 0 maintext dist/default/production\MaverickClock.X.production.o
+__end_of_rand 4F66 0 CODE 0 text17 dist/default/production\MaverickClock.X.production.o
+__end_of_row1 5154 0 STRCODE 0 stringtext8 dist/default/production\MaverickClock.X.production.o
+__end_of_row2 5124 0 STRCODE 0 stringtext6 dist/default/production\MaverickClock.X.production.o
+__end_of_row3 50F0 0 STRCODE 0 stringtext4 dist/default/production\MaverickClock.X.production.o
+__end_of_row4 510A 0 STRCODE 0 stringtext5 dist/default/production\MaverickClock.X.production.o
+__end_of_row5 513C 0 STRCODE 0 stringtext7 dist/default/production\MaverickClock.X.production.o
+_Clock_FixDigit4LastThreePixels 3B0E 0 CODE 0 text34 dist/default/production\MaverickClock.X.production.o
+Clock_SetDigitRGBArray@red 32 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__end_of_APP_Initialize 3E28 0 CODE 0 text37 dist/default/production\MaverickClock.X.production.o
+__end_of_RotaryEncoder_GetSwitchState 4780 0 CODE 0 text36 dist/default/production\MaverickClock.X.production.o
+_OSCEN 91D 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+Clock_InitializeClockLEDs@backgroundBlue 3B 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_T1CON 1B 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_T3CON 413 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_T5CON 41A 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR1H 1A 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR1L 19 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR3H 412 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR3L 411 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR5H 419 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TMR5L 418 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TRISA 8C 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+_TRISC 8E 0 ABS 0 - dist/default/production\MaverickClock.X.production.o
+Time_RenderIfMinutesHaveChanged@minutes AE 0 BANK1 1 cstackBANK1 dist/default/production\MaverickClock.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_TMR1_Initialize 4894 0 CODE 0 text5 dist/default/production\MaverickClock.X.production.o
+_TMR1_StartTimer 454E 0 CODE 0 text42 dist/default/production\MaverickClock.X.production.o
+_TMR1_WriteTimer 4706 0 CODE 0 text71 dist/default/production\MaverickClock.X.production.o
+_timer5ReloadVal D3 0 BANK1 1 nvBANK1 dist/default/production\MaverickClock.X.production.o
+__end_of_IOCCF3_DefaultInterruptHandler 3402 0 CODE 0 text81 dist/default/production\MaverickClock.X.production.o
+_WDT_Initialize 455A 0 CODE 0 text2 dist/default/production\MaverickClock.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\MaverickClock.X.production.o
+_Clock_IterateSinglePixelByIndex 4E42 0 CODE 0 text15 dist/default/production\MaverickClock.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__HdataBANK3 0 0 ABS 0 dataBANK3 -
+__end_of_OSCILLATOR_Initialize 45F8 0 CODE 0 text8 dist/default/production\MaverickClock.X.production.o
+__end_of_digit1StartPixel 516C 0 STRCODE 0 stringtext12 dist/default/production\MaverickClock.X.production.o
+WS2812b_Initialize@pxBuff 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+?_RotaryEncoder_GetShaftCounts 29 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+__initialization 56 0 CODE 0 cinit dist/default/production\MaverickClock.X.production.o
+_Clock_ForceRender 2242 0 CODE 0 text31 dist/default/production\MaverickClock.X.production.o
+__pbssBANK0 5D 0 BANK0 1 bssBANK0 dist/default/production\MaverickClock.X.production.o
+__pbssBANK1 BB 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/production\MaverickClock.X.production.o
+__end_of_CRCtbl 3400 0 STRCODE 0 stringtext1 dist/default/production\MaverickClock.X.production.o
+_currentDIGITrgbArray CB 0 BANK1 1 bssBANK1 dist/default/production\MaverickClock.X.production.o
+_IOCCF3_InterruptHandler 155 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+___wmul@product 2D 0 BANK0 1 cstackBANK0 dist/default/production\MaverickClock.X.production.o
+_RotaryEncoder_HasButtonPressOccurred 47A2 0 CODE 0 text28 dist/default/production\MaverickClock.X.production.o
+_Clock_Popcorn_Pattern_Hold 8BA 0 CODE 0 text16 dist/default/production\MaverickClock.X.production.o
+_TMR1_SetInterruptHandler 45C2 0 CODE 0 text43 dist/default/production\MaverickClock.X.production.o
+_Timer1Interrupt 4624 0 CODE 0 text74 dist/default/production\MaverickClock.X.production.o
+_Clock_SetBackgroundRGBArray 47EE 0 CODE 0 text62 dist/default/production\MaverickClock.X.production.o
+__end_of_digit3StartPixel 5164 0 STRCODE 0 stringtext10 dist/default/production\MaverickClock.X.production.o
+__end_of_Clock_CrossingRainbowPattern 2000 0 CODE 0 text14 dist/default/production\MaverickClock.X.production.o
+__end_of_TMR3_ReadTimer 49E6 0 CODE 0 text51 dist/default/production\MaverickClock.X.production.o
+_TMR1_InterruptHandler 14F 0 BANK2 1 nvBANK2 dist/default/production\MaverickClock.X.production.o
+_OSCILLATOR_Initialize 45E6 0 CODE 0 text8 dist/default/production\MaverickClock.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+_downEncodedDigitsPixelValues 1 23E8 0
+_upEncodedDigitsPixelValues 1 258C 0
+_renderBuffer 1 2730 0
+- 1 CA0 20
+- 1 C20 50
+- 1 BA0 50
+- 1 B20 50
+- 1 AA0 50
+- 1 A20 50
+- 1 9A0 50
+- 1 920 50
+- 1 8DC 14
+- 1 8A0 3C
+- 1 820 50
+- 1 7A0 50
+- 1 720 50
+- 1 6A0 50
+- 1 648 28
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 241F 483E 15 2
+text2 0 22AD 455A 4 2
+text3 0 249A 4934 1C 2
+text4 0 23E4 47C8 13 2
+text5 0 244A 4894 1A 2
+text6 0 22BE 457C 8 2
+text7 0 269C 4D38 3F 2
+text8 0 22F3 45E6 9 2
+text9 0 1C9D 393A 63 2
+text10 0 1366 26CC 1A1 2
+text11 0 1C3E 387C 5F 2
+text12 0 1507 2A0E 2F9 2
+text14 0 C3E 187C 3C3 2
+text15 0 2721 4E42 48 2
+text17 0 2769 4ED2 4A 2
+text18 0 1001 2002 30 2
+text19 0 884 1108 3BA 2
+text20 0 1F14 3E28 EC 2
+text21 0 25D5 4BAA 2D 2
+text22 0 2667 4CCE 35 2
+text23 0 1B33 3666 53 2
+text24 0 26DB 4DB6 46 2
+text25 0 1AE1 35C2 52 2
+text26 0 1242 2484 124 2
+text27 0 23C0 4780 11 2
+text28 0 23D1 47A2 13 2
+text29 0 2535 4A6A 22 2
+text30 0 2513 4A26 22 2
+text31 0 1121 2242 121 2
+text32 0 1BE1 37C2 5D 2
+text33 0 1031 2062 F0 2
+text34 0 1D87 3B0E BF 2
+text35 0 1B86 370C 5B 2
+text36 0 23B0 4760 10 2
+text37 0 1E46 3C8C CE 2
+text38 0 22B6 456C 8 2
+text39 0 22EA 45D4 9 2
+text41 0 22AA 4554 3 2
+text42 0 22A7 454E 3 2
+text43 0 22E1 45C2 9 2
+text44 0 2434 4868 16 2
+text45 0 24F3 49E6 20 2
+text46 0 22D8 45B0 9 2
+text47 0 22CF 459E 9 2
+text48 0 22C6 458C 9 2
+text49 0 1A43 3486 4E 2
+text50 0 22A4 4548 3 2
+text51 0 24D3 49A6 20 2
+text52 0 23A1 4742 F 2
+text53 0 2602 4C04 32 2
+text54 0 25A9 4B52 2C 2
+text55 0 803 1006 81 2
+text56 0 247E 48FC 1C 2
+text57 0 1A91 3522 50 2
+text58 0 2580 4B00 29 2
+text59 0 2634 4C68 33 2
+text60 0 2557 4AAE 29 2
+text61 0 240B 4816 14 2
+text62 0 23F7 47EE 14 2
+text63 0 27B3 4F66 4D 2
+text65 0 2376 46EC D 2
+text66 0 2392 4724 F 2
+text67 0 2307 460E B 2
+text69 0 1A02 3404 41 2
+text70 0 2369 46D2 D 2
+text71 0 2383 4706 F 2
+text72 0 22FC 45F8 B 2
+text74 0 2312 4624 C 2
+text76 0 235C 46B8 D 2
+text77 0 1A01 3402 1 2
+text79 0 24B6 496C 1D 2
+text80 0 234F 469E D 2
+text81 0 1A00 3400 1 2
+text82 0 1D00 3A00 87 2
+text83 0 22A3 4546 1 2
+text84 0 2342 4684 D 2
+maintext 0 231E 463C C 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 21 21 46 1
+cstackBANK1 1 A0 A0 37 1
+cstackBANK3 1 1A0 1A0 3D 1
+inittext 0 2336 466C C 2
+stringtext1 0 1800 3000 200 2
+stringtext2 0 2800 5000 B6 2
+intentry 0 4 8 7FF 2
+reset_vec 0 0 0 3 2
+bssBANK2 1 120 120 37 1
+idataBANK0 0 3 6 1 2
+idataBANK1 0 22B1 4562 5 2
+idataBANK3 0 2464 48C8 1A 2
+clrtext 0 232A 4654 C 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

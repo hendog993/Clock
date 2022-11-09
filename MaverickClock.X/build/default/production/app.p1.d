@@ -1,0 +1,17 @@
+build/default/production/app.p1:  \
+app.c  \
+mcc_generated_files/mcc.h  \
+mcc_generated_files/device_config.h  \
+mcc_generated_files/pin_manager.h  \
+mcc_generated_files/interrupt_manager.h  \
+mcc_generated_files/tmr5.h  \
+mcc_generated_files/tmr3.h  \
+mcc_generated_files/memory.h  \
+mcc_generated_files/tmr1.h  \
+app.h  \
+rotaryEncoder.h  \
+patternMode.h  \
+changeColorMode.h  \
+timeCalculation.h  \
+clockLEDs.h  \
+CRC16bit.h 

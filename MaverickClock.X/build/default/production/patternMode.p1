@@ -1,0 +1,94 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F270 `(v ~T0 @X0 0 tf ]
+"116 ./rotaryEncoder.h
+[; ;./rotaryEncoder.h: 116: int32_t RotaryEncoder_GetShaftCounts(void);
+[v _RotaryEncoder_GetShaftCounts `(l ~T0 @X0 0 ef ]
+"127 ./clockLEDs.h
+[; ;./clockLEDs.h: 127: void Clock_IterateSinglePixelByIndex(void);
+[v _Clock_IterateSinglePixelByIndex `(v ~T0 @X0 0 ef ]
+"135
+[; ;./clockLEDs.h: 135: void Clock_CrossingRainbowPattern(void);
+[v _Clock_CrossingRainbowPattern `(v ~T0 @X0 0 ef ]
+"141
+[; ;./clockLEDs.h: 141: void Clock_CrossingRainbowPatternwithDelays(void);
+[v _Clock_CrossingRainbowPatternwithDelays `(v ~T0 @X0 0 ef ]
+"148
+[; ;./clockLEDs.h: 148: void Clock_Popcorn_Pattern(void);
+[v _Clock_Popcorn_Pattern `(v ~T0 @X0 0 ef ]
+"155
+[; ;./clockLEDs.h: 155: void Clock_Popcorn_Pattern_Hold(void);
+[v _Clock_Popcorn_Pattern_Hold `(v ~T0 @X0 0 ef ]
+"24 patternMode.c
+[; ;patternMode.c: 24: static void (*patterns[5u])(void);
+[v _patterns `*F270 ~T0 @X0 -> 5 `i s ]
+"29
+[; ;patternMode.c: 29: void STATE_PatternMode(void)
+[v _STATE_PatternMode `(v ~T0 @X0 1 ef ]
+"30
+[; ;patternMode.c: 30: {
+{
+[e :U _STATE_PatternMode ]
+[f ]
+"35
+[; ;patternMode.c: 35:     static int32_t patternIndex = 0;
+[v F272 `l ~T0 @X0 1 s patternIndex ]
+[i F272
+-> -> 0 `i `l
+]
+"36
+[; ;patternMode.c: 36:     int32_t rotCounts = RotaryEncoder_GetShaftCounts();
+[v _rotCounts `l ~T0 @X0 1 a ]
+[e = _rotCounts ( _RotaryEncoder_GetShaftCounts ..  ]
+"38
+[; ;patternMode.c: 38:     if (rotCounts)
+[e $ ! != _rotCounts -> -> 0 `i `l 13  ]
+"39
+[; ;patternMode.c: 39:     {
+{
+"40
+[; ;patternMode.c: 40:         patternIndex += rotCounts;
+[e =+ F272 _rotCounts ]
+"41
+[; ;patternMode.c: 41:         patternIndex = ( (patternIndex < 0) ? 5u -1 : (patternIndex > 5u -1) ? 0 : patternIndex);
+[e = F272 ? < F272 -> -> 0 `i `l : -> - -> 5 `ui -> -> 1 `i `ui `l ? > F272 -> - -> 5 `ui -> -> 1 `i `ui `l : -> -> 0 `i `l F272 ]
+"42
+[; ;patternMode.c: 42:     }
+}
+[e :U 13 ]
+"44
+[; ;patternMode.c: 44:     (*patterns[patternIndex])();
+[e ( *U *U + &U _patterns * -> F272 `ux -> -> # *U &U _patterns `ui `ux ..  ]
+"45
+[; ;patternMode.c: 45:     return;
+[e $UE 12  ]
+"46
+[; ;patternMode.c: 46: }
+[e :UE 12 ]
+}
+"48
+[; ;patternMode.c: 48: void State_SetFunctionLookupTable(void)
+[v _State_SetFunctionLookupTable `(v ~T0 @X0 1 ef ]
+"49
+[; ;patternMode.c: 49: {
+{
+[e :U _State_SetFunctionLookupTable ]
+[f ]
+"50
+[; ;patternMode.c: 50:     patterns[0] = Clock_IterateSinglePixelByIndex;
+[e = *U + &U _patterns * -> -> -> 0 `i `ui `ux -> -> # *U &U _patterns `ui `ux &U _Clock_IterateSinglePixelByIndex ]
+"51
+[; ;patternMode.c: 51:     patterns[1] = Clock_CrossingRainbowPattern;
+[e = *U + &U _patterns * -> -> -> 1 `i `ui `ux -> -> # *U &U _patterns `ui `ux &U _Clock_CrossingRainbowPattern ]
+"52
+[; ;patternMode.c: 52:     patterns[2] = Clock_CrossingRainbowPatternwithDelays;
+[e = *U + &U _patterns * -> -> -> 2 `i `ui `ux -> -> # *U &U _patterns `ui `ux &U _Clock_CrossingRainbowPatternwithDelays ]
+"53
+[; ;patternMode.c: 53:     patterns[3] = Clock_Popcorn_Pattern;
+[e = *U + &U _patterns * -> -> -> 3 `i `ui `ux -> -> # *U &U _patterns `ui `ux &U _Clock_Popcorn_Pattern ]
+"54
+[; ;patternMode.c: 54:     patterns[4] = Clock_Popcorn_Pattern_Hold;
+[e = *U + &U _patterns * -> -> -> 4 `i `ui `ux -> -> # *U &U _patterns `ui `ux &U _Clock_Popcorn_Pattern_Hold ]
+"55
+[; ;patternMode.c: 55: }
+[e :UE 14 ]
+}
